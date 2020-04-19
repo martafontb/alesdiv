@@ -1,0 +1,28 @@
+// Gutenberg block TABLE ------------------------------------------------------------------------------------
+.wp-block-table {
+	width: 100%;
+
+	td {
+		border: solid 1px #ccc;
+        padding: 10px;
+	}
+}
+
+.wp-block-table.alignleft, .wp-block-table.aligncenter, .wp-block-table.alignright {
+	display: table;
+	width: auto;
+}
+
+.wp-block-table.has-fixed-layout {
+    width: 100%;
+}
+
+// Gutenberg block GALLERY ------------------------------------------------------------------------------------
+.wp-block-gallery figcaption {
+    box-sizing: border-box;
+}
+
+// Gutenberg block BUTTON ------------------------------------------------------------------------------------
+.wp-block-button a {
+    text-decoration: none;
+}

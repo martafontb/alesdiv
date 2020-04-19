@@ -1,0 +1,62 @@
+.ish-sc_list {
+
+	// New indent for second line
+	li {
+		position: relative;
+		padding-left: 1.5em;
+
+		&:before {
+			position: absolute;
+			top: 0.6em;
+			margin-left: -1.5em !important;
+			font-size: 0.8em;
+		}
+	}
+
+	// Default style without custom icon
+	&.ish-noicon {
+		li {
+			&:before {
+				position: absolute;
+				top: 0.05em !important;
+				margin-left: -2.5em !important;
+				content: '\e816';
+				font-family: "ish-fontello";
+				font-size: 0.5em;
+			}
+		}
+	}
+
+
+	> ul, ol {
+		// General
+		margin: 0;
+		padding: 0;
+
+		// Custom icons
+		li {
+			list-style: none;
+		}
+
+		ul, ol {
+			padding: 0 !important;
+		}
+	}
+
+	ol {
+		counter-reset: my-counter;
+
+		li, [class^="ish-icon"], [class*=" ish-icon"] {
+			list-style: none;
+
+			&:before {
+				content: counter(my-counter) '.' !important;
+				counter-increment: my-counter !important;
+				font-size: 0.8em !important;
+				font-family: Verdana !important;
+				margin-left: 0 !important;
+				padding-left: 10px !important;
+			}
+		}
+	}
+}

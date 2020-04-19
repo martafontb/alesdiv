@@ -1,0 +1,41 @@
+// Vars
+$margin: 5px;
+
+
+.ish-sc_chart {
+
+	text-align: center;
+	display: table;
+	position: relative;
+
+
+	.ish-chart-inner {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	canvas{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	p{
+		margin: 0;
+	}
+
+	// Alignment
+	&.ish-left {
+		margin: 0 auto 0 0;
+	}
+
+	&.ish-center {
+		margin: 0 auto;
+	}
+
+	&.ish-right {
+		margin: 0 0 0 auto;
+	}
+
+}

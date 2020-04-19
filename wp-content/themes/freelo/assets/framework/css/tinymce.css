@@ -1,0 +1,39 @@
+/* Content Editor */
+.mce-ico[class*="mce-i-ish-"]{
+	font-family: 'ish-fontello' !important;
+	font-size: 13px !important;
+	position: relative !important;
+	top: 1px !important;
+}
+
+.mce-ico[class*="color_color"]:before{
+	font-size: 18px;
+}
+
+.mce-ico[class*="color_color"]:before { content: '\e806'; } /*.icon-stop*/
+
+/**
+ * WP 3.9 Fixes
+ */
+
+.mce-ico.mce-i-ishyoboy_color_palette{
+	background-image: url('../images/icon-color-highlight.png');
+}
+
+.mce-ico[class*="mce-i-ishyoboy_"] + span,
+.mce-ico[class*="mce-i-ishyoboy_"] + span + .mce-caret{
+	display: none;
+}
+
+.mce-menu-item-expand > .mce-text {
+	padding-right: 5px !important;
+}
+
+.mce-menu{
+	max-height: 450px !important;
+}
+
+.mce-menu .mce-menu-item{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}

@@ -1,0 +1,44 @@
+// Vars
+$margin: 5px;
+
+.ish-sc_cf7 {
+
+	.wpcf7 {
+		margin-bottom: -20px !important;
+
+		img.ajax-loader
+		{
+			position: absolute;
+			top: 15px;
+		}
+	}
+
+	input[type='submit']
+	{
+		background: none;
+		border-color: transparent;
+		font-size: 14px !important;
+	}
+
+	select,
+	textarea,
+	option,
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="submit"]
+	{
+		background: none;
+		font-size: 17px;
+	}
+
+	&.ish-border
+	{
+		select,
+		textarea,
+		input
+		{
+			border: 3px solid;
+		}
+	}
+}

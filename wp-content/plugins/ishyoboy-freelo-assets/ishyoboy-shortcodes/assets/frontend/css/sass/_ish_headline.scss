@@ -1,0 +1,44 @@
+.ish-sc_headline {
+
+	// General
+	display: block;
+
+
+	// Alignment
+	&.ish-left {
+		text-align: left;
+	}
+
+	&.ish-center {
+		text-align: center;
+	}
+
+	&.ish-right {
+		text-align: right;
+	}
+
+	.ish-icon{
+
+		span:before{
+			margin-left: 0;
+			margin-right: 10px;
+			width: auto;
+		}
+
+		&.ish-right span:before{
+			margin-left: 10px;
+			margin-right: 0;
+		}
+	}
+
+	&.ish-sc-element.ish-bottom-margin-none{
+		margin-bottom: 5px !important;
+	}
+
+	// link inside
+	&.ish-no-underline a {
+		border-bottom: none;
+		text-decoration: none;
+	}
+
+}

@@ -1,0 +1,150 @@
+// Vars
+$margin: 5px;
+
+
+.ish-sc_button {
+
+	// General
+	display: inline-block;
+	@extend %_rounded-corners;
+	padding: 6px 15px;
+	text-decoration: none !important;
+	font-weight: 500;
+	text-align: center;
+	margin-right: $margin;
+	margin-bottom: 6px;
+	font-size: 14px;
+
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+
+	// Last child
+	&:last-child {
+		margin-right: 0;
+	}
+
+
+	// Size
+	&.ish-small {
+		.ish-icon {
+			$margin: 8px;
+			&.ish-left  { margin-right: $margin; }
+			&.ish-right { margin-left: $margin; }
+		}
+	}
+
+	&.ish-medium {
+		font-size: 16px;
+		padding: 12px 19px 11px;
+		font-weight: normal !important;
+
+		.ish-icon {
+			$margin: 10px;
+			&.ish-left  { margin-right: $margin; }
+			&.ish-right { margin-left: $margin; }
+		}
+	}
+
+	&.ish-big {
+		font-size: 24px;
+		line-height: 25px;
+		padding: 24px 25px 23px;
+		font-weight: normal !important;
+
+		.ish-icon {
+			$margin: 15px;
+			&.ish-left  { margin-right: $margin; }
+			&.ish-right { margin-left: $margin; }
+		}
+	}
+
+
+	// Alignment
+	&.ish-left {
+		float: left;
+	}
+
+	&.ish-center {
+		display: table;
+		margin: 0 auto;
+	}
+
+	&.ish-right {
+		float: right;
+		margin-right: 0;
+		margin-left: $margin;
+
+		&:last-child {
+			margin-left: 0;
+		}
+	}
+
+
+	// Full width
+	&.ish-fullwidth {
+		width: 100%;
+	}
+
+
+	// With icon
+	.ish-icon {
+		&.ish-right span:before {
+			margin-right: -1px;
+		}
+
+		&.ish-left span:before {
+			margin-left: -1px;
+		}
+	}
+
+	// Border
+	&.ish-border{
+		border: 3px solid;
+		position: relative;
+
+		@extend %_background_clip;
+
+		/*&:after{
+			content: " ";
+			display: block;
+			width: 100%;
+			height: 3px;
+			padding: 0 3px;
+			position: absolute;
+			bottom: -7px;
+			left: 0;
+
+			@extend %_trans-on;
+		}*/
+	}
+
+}
+
+
+// Column alignment
+.wpb_column.ish-right .wpb_wrapper .ish-sc_button {
+	margin-right: 0;
+	margin-left: $margin;
+}
+
+
+// FF IE center button fix
+@-moz-document url-prefix() {
+	.ish-sc_button.ish-border.ish-center:after {
+		border-left: 3px solid transparent;
+		border-right: 3px solid transparent;
+		background-clip: padding-box;
+		bottom: -4px;
+	}
+}
+
+@media screen and (min-width:0\0) {
+	.ish-sc_button.ish-border.ish-center:after {
+		border-left: 3px solid transparent;
+		border-right: 3px solid transparent;
+		background-clip: padding-box;
+		bottom: -4px;
+		border: 1px solidred !important;
+	}
+}

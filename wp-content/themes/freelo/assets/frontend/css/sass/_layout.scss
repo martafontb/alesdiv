@@ -1,0 +1,354 @@
+// Vars ****************************************************************************************************************
+$CONTENT_WIDTH: 1240px; 		// Main content width
+$CONTENT_PADDINGS_WIDTH: 60px;	// Left & right padding of the content 60px (full) -> 30px (768px)
+$CONTENT_PADDINGS_HEIGHT: 60px;	// Top & bottom padding of the content 60px (full) -> 30px (768px)
+
+
+// Mixins **************************************************************************************************************
+
+
+
+// Extends *************************************************************************************************************
+
+
+
+// Placeholders ********************************************************************************************************
+%_center-body {
+	max-width: $CONTENT_WIDTH;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+// Body ****************************************************************************************************************
+
+// Unboxed version -----------------------------------------------------------------------------------------------------
+.ish-unboxed .ish-wrapper-all {
+	width: 100%;
+}
+
+.ish-unboxed {
+	[class^="ish-part_"] .ish-row-notfull .ish-row_inner, [class*=" ish-part_"] .ish-row-notfull .ish-row_inner,
+	// VC
+	.ish-vc_row_inner {
+		@extend %_center-body;
+	}
+}
+
+
+// Full row ------------------------------------------------------------------------------------------------------------
+// Ish
+[class^="ish-part_"] .ish-row-full:not([class*="ish-row-full-padding"]) .ish-row_inner,
+[class*=" ish-part_"] .ish-row-full:not([class*="ish-row-full-padding"]) .ish-row_inner {
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+// VC
+[class^="ish-part_"] .ish-row-full:not([class*="ish-row-full-padding"]) .ish-vc_row_inner,
+[class*=" ish-part_"] .ish-row-full:not([class*="ish-row-full-padding"]) .ish-vc_row_inner {
+	max-width: 100%;
+	padding: 0;
+}
+
+[class^="ish-part_"] .ish-row-full-padding .ish-row_inner,
+[class*=" ish-part_"] .ish-row-full-padding .ish-row_inner,
+[class^="ish-part_"] .ish-row-full-padding .ish-vc_row_inner,
+[class*=" ish-part_"] .ish-row-full-padding .ish-vc_row_inner {
+	max-width: 100%;
+}
+
+
+
+// Boxed version -------------------------------------------------------------------------------------------------------
+.ish-boxed {
+	$padding-general: 60px;
+
+	// Set top only if is not sticky
+	&:not(.ish-sticky-on) .ish-body {
+		//padding-top: $padding-general;
+	}
+
+	&.ish-percent-width .ish-body {
+		padding: $padding-general !important;
+	}
+
+	&.ish-pixel-width .ish-body {
+		padding-top: $padding-general !important;
+		padding-bottom: $padding-general !important;
+	}
+
+	// Sticky nav off
+	&.ish-percent-width .ish-part_header{
+		width: 100%;
+
+	}
+
+	// Sticky nav on
+	&.ish-percent-width.ish-sticky-on .ish-part_header{
+		width: calc(100% - 2 * #{$padding-general});
+	}
+}
+
+.ish-boxed {
+	[class^="ish-part_"], [class*=" ish-part_"] {
+		@extend %_center-body;
+	}
+
+	.ish-wrapper-all {
+		margin: 0 auto;
+
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	}
+}
+
+
+// Paddings & margins --------------------------------------------------------------------------------------------------
+
+// Tagline
+.ish-part_tagline {
+	padding-top: $CONTENT_PADDINGS_HEIGHT;
+	padding-bottom: $CONTENT_PADDINGS_HEIGHT;
+}
+
+// Add left and right padding to all inner rows
+.ish-row_inner, .ish-vc_row_inner {
+	padding-left: $CONTENT_PADDINGS_WIDTH;
+	padding-right: $CONTENT_PADDINGS_WIDTH;
+}
+
+// Part content without sidebar
+.ish-part_content.ish-without-sidebar {
+	// Set padding top and bottom to all row inner
+	> .ish-row, > .wpb_row {
+		> .ish-row_inner, > .ish-vc_row_inner {
+			padding-top: $CONTENT_PADDINGS_HEIGHT;
+			padding-bottom: $CONTENT_PADDINGS_HEIGHT;
+		}
+	}
+
+	// Remove padding top if section goes after section
+	> .ish-row.ish-row_notsection + .ish-row.ish-row_notsection, > .wpb_row.ish-row_notsection + .wpb_row.ish-row_notsection {
+		> .ish-row_inner, > .ish-vc_row_inner {
+			padding-top: 0;
+		}
+	}
+
+	// Delete all padding if row is full
+	> .ish-row-full:not([class*="ish-row-full-padding"]) {
+		> .ish-row_inner, > .ish-vc_row_inner {
+			padding: 0 !important;
+		}
+	}
+}
+
+
+// Part content with sidebar
+.ish-part_content.ish-with-sidebar {
+	// Set padding top to first row inner
+	> .wpb_row
+	{
+		> .ish-vc_row_inner
+		{
+			padding-top: $CONTENT_PADDINGS_HEIGHT;
+		}
+	}
+
+	// left / right sidebar
+	.ish-with-left-sidebar {
+		float: right;
+	}
+
+	.ish-left-sidebar {
+		float: left;
+		margin-right: 2%;
+		margin-left: 0;
+	}
+
+	// Content - grid9
+	.ish-pc-content {
+		&.ish-grid8.ish-with-sidebar
+		{
+			width: 72.5%;
+		}
+
+		// Clear left and right padding if row is not section
+		.ish-row_notsection {
+			.ish-vc_row_inner {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		> .wpb_row {
+			// Set padding top and bottom to all row inner
+			> .ish-vc_row_inner {
+				padding-top: $CONTENT_PADDINGS_HEIGHT !important;
+				padding-bottom: $CONTENT_PADDINGS_HEIGHT !important;
+			}
+		}
+
+		// Add margin to last child if it's section
+		> .ish-row_section:last-child {
+			margin-bottom: 60px;
+		}
+
+		// Delete all padding if row is full
+		> .ish-row-full:not([class*="ish-row-full-padding"]) {
+			> .ish-row_inner, > .ish-vc_row_inner {
+				padding: 0 !important;
+			}
+		}
+	}
+
+	// Sidebar - grid3
+	.ish-main-sidebar {
+		padding-top: $CONTENT_PADDINGS_HEIGHT;
+		padding-bottom: $CONTENT_PADDINGS_HEIGHT;
+
+		position: relative;
+		width: 23.5%;
+
+		&:before{
+			display: block;
+			content: "";
+			border-left: 1px solid;
+			position: absolute;
+			top: 0;
+			height: calc(100% - 120px);
+
+			margin: 60px 0;
+			box-sizing: border-box;
+		}
+
+		&.ish-right-sidebar {
+			margin-left: 4%;
+			padding-left: 4.5%;
+
+			&:before{
+				width: 4px;
+				border-left: 1px solid;
+				border-right: 1px solid;
+				left: 0;
+			}
+		}
+
+		&.ish-left-sidebar {
+			margin-right: 4%;
+			padding-right: 4.5%;
+
+			&:before{
+				width: 4px;
+				border-left: 1px solid;
+				border-right: 1px solid;
+				right: 0;
+			}
+		}
+
+		> .ish-row > .ish-row_inner {
+			padding: 0 !important;
+
+			[class^="ish-grid"], [class*=" ish-grid"] {
+				width: 100%;
+			}
+		}
+
+		.widget {
+			padding-top: $CONTENT_PADDINGS_HEIGHT;
+		}
+
+		.ish-row:first-child .widget:first-child {
+			padding-top: 0 !important;
+		}
+	}
+}
+
+// Part content with sidebar - grid3 -----------------------------------------------------------------------------------
+
+
+
+// Search position & paddings ------------------------------------------------------------------------------------------
+.ish-part_searchbar {
+
+	div {
+		@extend %_center-body;
+
+		input[type="text"] {
+			padding: 0 $CONTENT_PADDINGS_WIDTH;
+		}
+	}
+}
+
+
+// Expandable center + paddings ----------------------------------------------------------------------------------------
+.ish-part_expandable {
+	.ish-row_inner {
+		@extend %_center-body;
+	}
+
+	.ish-pe-bg {
+		padding-top: $CONTENT_PADDINGS_HEIGHT;
+
+		> .ish-row {
+			padding-bottom: $CONTENT_PADDINGS_HEIGHT;
+		}
+	}
+}
+
+
+// Footer paddings
+.ish-part_footer {
+	.ish-row {
+		.ish-row_inner {
+			padding-top: $CONTENT_PADDINGS_HEIGHT;
+			padding-bottom: 0;
+		}
+
+		&:last-child .ish-row_inner {
+			padding-bottom: $CONTENT_PADDINGS_HEIGHT;
+		}
+	}
+}
+
+// Sidebar as shortcode
+
+.ish-sc_sidebar {
+
+	> .ish-row > .ish-row_inner {
+		//padding: 0 0 $CONTENT_PADDINGS_HEIGHT 0;
+		padding: 0
+	}
+
+	> .ish-row:last-child .ish-row_inner {
+		padding-bottom: 0;
+	}
+
+}
+
+.ish-row-full-padding .ish-sc_sidebar .ish-row > .ish-row_inner {
+	max-width: 100%;
+}
+
+// Sidenav as widgetized area
+.ish-sidenav {
+	/*padding-top: $CONTENT_PADDINGS_HEIGHT;
+	padding-bottom: $CONTENT_PADDINGS_HEIGHT;*/
+
+	 > .ish-row > .ish-row_inner {
+		padding: 0 !important;
+
+		/*[class^="ish-grid"], [class*=" ish-grid"] {
+			width: 100%;
+		}*/
+
+	 }
+
+	.widget {
+		padding-top: $CONTENT_PADDINGS_HEIGHT;
+	}
+	.ish-row:first-child .widget:first-child {
+		padding-top: 0 !important;
+	}
+
+}

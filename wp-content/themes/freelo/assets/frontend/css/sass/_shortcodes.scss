@@ -1,0 +1,32 @@
+// Shortcode elements bottom margin ------------------------------------------------------------------------------------
+.wpb_content_element, .ish-sc-element {
+	margin-bottom: $GAP_SMALL !important;
+}
+
+// No Margin
+.wpb_content_element.ish-bottom-margin-none,
+.ish-sc-element.ish-bottom-margin-none {
+	margin-bottom: 0 !important;
+}
+
+.wpb_content_element.ish-bottom-margin-half,
+.ish-sc-element.ish-bottom-margin-half {
+	margin-bottom: ($GAP_BIG / 2) !important;
+}
+
+
+// ish-button ----------------------------------------------------------------------------------------------------------
+.ish-sc_button {
+	@extend %_trans-on;
+}
+
+// ish-image ----------------------------------------------------------------------------------------------------------
+.ish-sc-element.ish-sc_image {
+	position: relative;
+}
+
+
+// AddThis Social Share ------------------------------------------------------------------------------------------------
+.ish-part_content .ish-sc_social_share a {
+	border-bottom: none !important;
+}

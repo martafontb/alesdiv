@@ -1,0 +1,101 @@
+// Vars
+$opacity: 0.6;
+
+
+.ish-sc_tgg_acc {
+
+	// General
+
+
+	// Container
+	.ish-sc_tgg_acc_item {
+		margin-bottom: 0 !important;
+	}
+
+	// Title
+	.ish-tgg-acc-title {
+		@extend %_rounded-corners;
+		margin-bottom: 3px !important;
+		padding: 8px 15px;
+		cursor: pointer;
+		@extend %_trans-on;
+		text-align: left;
+		font-size: 15px;
+
+		:before {
+			margin-left: 0 ;
+		}
+
+		i {
+			margin-right: 8px;
+			width: 1em;
+			display: inline-block;
+			text-align: center;
+			font-size: 10px;
+
+			&:before {
+				width: auto;
+				position: relative;
+				top: -1px;
+			}
+		}
+
+		.ish-icon {
+			margin-right: 10px;
+
+			&.ish-right {
+				margin-right: 0;
+				margin-left: 10px;
+
+				:before {
+					margin-right: 0 !important;
+					margin-left: .2em;
+				}
+			}
+		}
+
+		&[class*="ish-border-color"]{
+			border-width: 3px;
+			border-style: solid;
+			background-clip: padding-box;
+		}
+	}
+
+	// Content
+	.ish-tgg-acc-content {
+		display: none;
+		//padding: 30px 30px 0;
+		padding: 30px;
+		margin-bottom: 3px !important;
+		@extend %_rounded-corners;
+
+		&[class*="ish-border-color"]{
+			border-width: 3px;
+			border-style: solid;
+			background-clip: padding-box;
+		}
+	}
+
+	// Open active by default
+	.ish-tgg-acc-title.ish-active + .ish-tgg-acc-content {
+		display: block;
+	}
+
+	// Filter
+	.ish-tgg-acc-filter {
+		display: block;
+		padding-bottom: 5px;
+		font-size: 15px;
+
+		a {
+			opacity: $opacity;
+			text-decoration: none !important;
+			margin: 0 5px;
+
+			&.ish-active {
+				opacity: 1 !important
+			}
+		}
+	}
+
+}

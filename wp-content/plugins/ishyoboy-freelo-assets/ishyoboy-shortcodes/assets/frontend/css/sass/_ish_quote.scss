@@ -1,0 +1,96 @@
+.ish-sc_quote {
+
+	// General
+	margin: 0;
+	position: relative;
+	font-style: italic !important;
+
+	&[class*=" ish-h"] {}
+
+
+	// Author
+	cite {
+		display: block;
+		font-style: normal !important;
+		margin-top: 10px;
+
+		opacity: 0.6;
+
+		&.ish-a{
+			opacity: 1;
+
+			&:before, &:after {
+				opacity: 0.6;
+			}
+
+			a {
+				opacity: 1;
+
+				&:hover{
+					opacity: 0.6;
+				}
+
+			}
+		}
+
+		a {
+			@extend %_trans-on;
+			text-decoration: none;
+
+			&:hover{
+				opacity: 0.8;
+			}
+		}
+
+		&:before {
+			content: '~ ';
+		}
+		&:after {
+			content: ' ~';
+		}
+
+	}
+
+
+	// Alignment
+	&.ish-left {
+		//border-left: 3px solid;
+		//padding-left: 25px;
+
+		cite {
+			text-align: left;
+		}
+	}
+
+	&.ish-center {
+		text-align: center;
+
+		//padding-top: 25px;
+
+		/*&:before {
+			content: '';
+			border-top: 3px solid;
+			width: 26px;
+			margin-left: -13px;
+			position: absolute;
+			top: 0;
+			left: 50%;
+		}*/
+
+		cite {
+			text-align: center;
+		}
+	}
+
+	&.ish-right {
+		text-align: right;
+
+		//border-right: 3px solid;
+		//padding-right: 25px;
+
+		cite {
+			text-align: right;
+		}
+	}
+
+}

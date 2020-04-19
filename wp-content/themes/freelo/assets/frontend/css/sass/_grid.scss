@@ -1,0 +1,225 @@
+// Vars ****************************************************************************************************************
+$COL_WIDTH: 6.5%;
+$COL_MARGIN: 2%;
+
+
+
+// Mixins **************************************************************************************************************
+
+
+
+// Extends *************************************************************************************************************
+
+
+
+// Placeholders ********************************************************************************************************
+
+
+
+// Body ****************************************************************************************************************
+
+// Clearing row --------------------------------------------------------------------------------------------------------
+.ish-row,
+/*VC*/.vc_row-fluid,
+.wpb_column {
+	//clear: both;
+	@extend %_clearfix;
+
+	/* Added because of the ish-row-overlay opacity support  */
+	position: relative;
+}
+
+
+
+.ish-row_inner,
+/*VC*/.ish-vc_row_inner {
+	@extend %_clearfix;
+}
+
+// All grid* classes
+[class^="ish-grid"], [class*=" ish-grid"] {
+	float: left;
+	min-height: 1px;
+	margin-left: $COL_MARGIN;
+
+	// Remove margin on last grid
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+/*VC*/
+.vc_row-fluid .wpb_column {
+	margin-left: $COL_MARGIN !important;
+
+	// Remove margin on last grid
+	&:first-child {
+		margin-left: 0 !important;
+	}
+}
+
+/* VC - Ability to have more columns vc_col-sm-12 in the same row */
+.vc_row-fluid .wpb_column.vc_col-sm-12 {
+	margin-left: 0 !important;
+}
+
+[class^="ish-grid"], [class*=" ish-grid"] {
+	@extend %_clearfix;
+}
+
+// Centering a single column of any width
+[class^="ish-grid"].ish-center-single-column, [class*=" ish-grid"].ish-center-single-column, [class^="wpb_column"].ish-center-single-column, [class*=" wpb_column"].ish-center-single-column {
+	float: none;
+	margin: 0 auto;
+}
+
+// Image width 100% only in case it doesn't have set width attribute
+[class^="ish-grid"], [class*=" ish-grid"], [class^="wpb_column"], [class*=" wpb_column"], .wpb_row {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+// Grids width
+@for $i from 1 through 12 {
+	@if $i == 1 {
+		.ish-grid#{$i} { width: $COL_WIDTH; }
+		/*VC*/.vc_col-sm-#{$i} { width: $COL_WIDTH !important; float: left; }
+	}
+	@else {
+		.ish-grid#{$i} { width: ( $COL_WIDTH * $i ) + ( $COL_MARGIN * ( $i - 1 ) ); }
+		/*VC*/.vc_col-sm-#{$i} { width: ( $COL_WIDTH * $i ) + ( $COL_MARGIN * ( $i - 1 ) ) !important; float: left; }
+	}
+}
+
+
+// Vertical align middle for columns
+.wpb_row.ish-valign-middle {
+	%_ish-valign-middle {
+		display: inline-block !important;
+		float: none !important;
+		vertical-align: middle !important;
+		font-size: 0 !important
+	}
+
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	font-size: 0 !important;
+
+	& > .ish-vc_row_inner {
+		font-size: 0 !important;
+
+		& > .wpb_column {
+			@extend %_ish-valign-middle;
+		}
+	}
+
+	& > .wpb_column {
+		@extend %_ish-valign-middle;
+	}
+}
+
+// Vertical align bottom for columns
+.wpb_row.ish-valign-bottom {
+	%_ish-valign-bottom {
+		display: inline-block !important;
+		float: none !important;
+		vertical-align: bottom !important;
+		font-size: 0 !important
+	}
+
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	font-size: 0 !important;
+
+	& > .ish-vc_row_inner {
+		font-size: 0 !important;
+		vertical-align: bottom !important;
+
+		& > .wpb_column {
+			@extend %_ish-valign-bottom;
+		}
+	}
+
+	& > .wpb_column {
+		@extend %_ish-valign-bottom;
+	}
+}
+
+// Vertical align top for columns
+.wpb_row.ish-valign-top {
+	%_ish-valign-top {
+		display: inline-block !important;
+		float: none !important;
+		vertical-align: top !important;
+		font-size: 0 !important
+	}
+
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	font-size: 0 !important;
+
+	& > .ish-vc_row_inner {
+		font-size: 0 !important;
+		vertical-align: top !important;
+
+		& > .wpb_column {
+			@extend %_ish-valign-top;
+		}
+	}
+
+	& > .wpb_column {
+		@extend %_ish-valign-top;
+	}
+}
+
+// Remove margins between columns
+.wpb_row.ish-no-margins{
+
+	// To level rows
+	> .ish-vc_row_inner{
+		> .wpb_column{
+			margin-left: 0 !important;
+		}
+
+		$COL_WIDTH: 8.33333333%;
+		$COL_MARGIN: 0;
+
+		// Grids width
+		@for $i from 1 through 12 {
+			@if $i == 1 {
+				> .ish-grid#{$i} { width: $COL_WIDTH; }
+				/*VC*/> .vc_col-sm-#{$i} { width: $COL_WIDTH !important; float: left; }
+			}
+			@else {
+				> .ish-grid#{$i} { width: ( $COL_WIDTH * $i ) + ( $COL_MARGIN * ( $i - 1 ) ); }
+				/*VC*/> .vc_col-sm-#{$i} { width: ( $COL_WIDTH * $i ) + ( $COL_MARGIN * ( $i - 1 ) ) !important; float: left; }
+			}
+		}
+	}
+
+	// Inner Rows
+
+	> .wpb_column{
+		margin-left: 0 !important;
+	}
+
+	$COL_WIDTH: 8.33333333%;
+	$COL_MARGIN: 0;
+
+	// Grids width
+	@for $i from 1 through 12 {
+		@if $i == 1 {
+			> .ish-grid#{$i} { width: $COL_WIDTH; }
+			/*VC*/> .vc_col-sm-#{$i} { width: $COL_WIDTH !important; float: left; }
+		}
+		@else {
+			> .ish-grid#{$i} { width: ( $COL_WIDTH * $i ) + ( $COL_MARGIN * ( $i - 1 ) ); }
+			/*VC*/> .vc_col-sm-#{$i} { width: ( $COL_WIDTH * $i ) + ( $COL_MARGIN * ( $i - 1 ) ) !important; float: left; }
+		}
+	}
+}

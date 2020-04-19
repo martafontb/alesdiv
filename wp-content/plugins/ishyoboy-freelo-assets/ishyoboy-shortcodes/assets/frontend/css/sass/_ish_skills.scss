@@ -1,0 +1,69 @@
+.ish-sc_skills
+{
+
+	// General
+
+	&, *
+	{
+		font-weight: 500;
+		//font-size: 15px;
+	}
+
+	// Single skill
+	.ish-sc_skill
+	{
+		$fs: 15px;
+		font-size: $fs;
+		margin-bottom: 15px !important;
+
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
+
+		/*span
+		{
+			font-weight: 600;
+		}*/
+
+		// Skill bg
+		.ish-bar-bg
+		{
+			@extend %_rounded-corners;
+			display: block;
+			font-size: $fs;
+
+			// Skill fg
+			.ish-bar
+			{
+				@extend %_rounded-corners;
+				display: block;
+				padding: 7px 15px;
+				opacity: 0;
+				width: 0;
+				white-space: nowrap;
+			}
+		}
+
+		&.ish-outside
+		{
+			.ish-bar
+			{
+				padding: 5px 10px !important;
+				margin-top: 2px;
+			}
+		}
+
+		// Icon
+		.ish-icon
+		{
+			margin-right: 8px;
+
+			&:before
+			{
+				margin-left: 0;
+			}
+		}
+
+	}
+
+}

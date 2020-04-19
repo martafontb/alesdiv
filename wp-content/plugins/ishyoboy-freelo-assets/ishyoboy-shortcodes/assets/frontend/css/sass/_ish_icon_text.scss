@@ -1,0 +1,76 @@
+// Vars
+
+
+.ish-sc_icon_text {
+	.ish_wrapper {
+		display: table;
+		width: 100%;
+
+		& > div {
+			display: table-cell;
+		}
+
+		& > div:first-child {
+			//padding-right: 2%;
+			padding-right: 25px;
+		}
+	}
+
+	&.ish-left{
+		text-align: left;
+	}
+
+	&.ish-center{
+		text-align: center;
+
+		.ish_wrapper {
+			display: block;
+
+			& > div {
+				display: block;
+			}
+
+			& > div:first-child {
+				padding-right: 0;
+			}
+		}
+	}
+
+	&.ish-right{
+		text-align: right;
+	}
+
+	&:not(.ish-center) .ish-sc-element {
+		margin-bottom: 0 !important;
+	}
+
+	&.ish-valign-middle{
+		.ish_wrapper > div{
+			vertical-align: middle;
+		}
+	}
+
+	&.ish-valign-top{
+		.ish_wrapper > div{
+			vertical-align: top;
+		}
+	}
+
+	&.ish-valign-bottom{
+		.ish_wrapper > div{
+			vertical-align: bottom;
+		}
+	}
+
+	.ish-it-text{
+		width: 100%;
+	}
+
+	// New styling
+	//&.ish-left, &.ish-right {
+	&:not(.ish-center) {
+		.ish-sc_icon {
+			margin-top: 5px !important;
+		}
+	}
+}

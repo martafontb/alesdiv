@@ -1,0 +1,35 @@
+// Vars
+
+
+.ish-sc_counter {
+
+	// General
+	display: block;
+
+	// Alignment
+	&.ish-left {
+		text-align: left;
+	}
+
+	&.ish-center {
+		text-align: center;
+	}
+
+	&.ish-right {
+		text-align: right;
+	}
+
+	.ish-icon{
+
+		span:before{
+			margin-left: 0;
+			width: auto;
+		}
+
+		&.ish-right span:before{
+			margin-left: .2em;
+			margin-right: 0;
+		}
+	}
+
+}

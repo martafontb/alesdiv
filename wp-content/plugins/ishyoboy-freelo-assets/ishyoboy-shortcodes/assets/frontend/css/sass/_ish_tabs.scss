@@ -1,0 +1,103 @@
+// Vars
+
+
+.ish-sc_tabs {
+	@extend %_clearfix;
+
+	// Navigation
+	.ish-tabs-navigation {
+		//margin-bottom: 1px;
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			@extend %_clearfix;
+
+			li {
+				display: block;
+				float: left;
+				margin-right: 3px;
+				margin-bottom: 3px;
+
+
+
+				a {
+					text-decoration: none;
+					padding: 7px 15px;
+					display: block;
+					font-size: 15px;
+					@extend %_rounded-corners;
+
+					> span {
+						margin-right: 12px;
+
+						:before {
+							width: auto !important;
+						}
+
+						&.ish-right {
+							margin-right: 0;
+							margin-left: 12px;
+						}
+					}
+				}
+
+				&[class*="ish-border-color"]{
+					a{
+						border-width: 3px;
+						border-style: solid;
+						background-clip: padding-box;
+					}
+				}
+			}
+		}
+
+		&.ish-tabs-left, &.ish-tabs-right {
+			ul {
+				li {
+					float: none;
+					margin-left: 0;
+					margin-top: 3px;
+					margin-right: 0;
+
+					&:first-child {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+
+		&.ish-tabs-right {
+			float: right;
+
+			& + .ish-tabs-content {
+				margin-left: 0;
+				//margin-right: 2%;
+				float: left;
+			}
+		}
+	}
+
+
+	// Content
+	.ish-tabs-content {
+		.ish-sc_tab {
+			display: none;
+			margin-bottom: 0 !important;
+			//padding: 30px 30px 0;
+			padding: 30px;
+			@extend %_rounded-corners;
+
+			&.ish-active {
+				display: block;
+			}
+
+			&[class*="ish-border-color"]{
+				border-width: 3px;
+				border-style: solid;
+				background-clip: padding-box;
+			}
+		}
+	}
+}

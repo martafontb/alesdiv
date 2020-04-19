@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+
+/*!
+
+	Theme Name: Freelo
+	Theme URI: http://themes.ishyoboy.com/freelo/
+	Author: IshYoBoy
+	Author URI: http://ishyoboy.com
+	Description: Freelo WordPress theme is perfectly suitable for freelancers, designers or any type of creative people. With modern, fresh and funky design it will help you stand out from all the boring portfolios out there. Give it a try and see how customisable Freelo is!
+	Version: 1.8
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, white, yellow, dark, light, one-column, two-columns, three-columns, four-columns, right-sidebar, fluid-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready, holiday, photoblogging, seasonal
+
+*/
+
+
+/*!
+
+	Theme uses SASS (http://sass-lang.com/) preprocessing for better organizing and manipulating with all the files, rules & definitions
+
+	--------------------------------------------------------------------------------------------------------------------
+
+	TABLE OF CONTENT:
+
+	1. _normalize.scss - Makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
+
+	2. _general.scss - General definitions (such as transitions, font reseting, floatings, box-models) use across the whole theme and in the all files
+
+	3. _grid.scss - The very basic and essential set of rules defining grid system (core) of whole theme in general
+
+	4. _layout.scss - Additional grid rules to define specific layout characteristics, such as paddings, widths, positions
+
+	5. _content.scss - Main set of CSS rules for all the content elements, from header to footer
+
+	6. _shortcodes.scss - General rules for all the shortcodes, specific rules for each one shortcode are stored in IshYoBoy plugin
+
+	7. _blog.scss - Rules defining blog behavior, comments, sidebars, post types, etc
+
+	8. _portfolio.scss - Rules defining how the portfolio shortcode looks and behaves, all the layout & effects definitions
+
+	9. _widgets.scss - Set of rules for all the widgets used across the whole theme and in all widgetized areas (sidebar, footer, sidebar shortcode, expandable are)
+
+	10. _wordpress.scss - Mostly rules defining or adjusting default WordPress element behaviour and look
+
+	11. _plugins.scss - Set of rules for all the 3rd party plugins used across the whole theme
+
+	12. _woocommerce.scss - Set of rules for WooCommerce 3rd party plugin, mostly styling that fixing issues or making WooCommerce looks like a design part of the theme
+
+	13. _preloader.scss - Set of rules defining how it looks and behaves theme preloader, as far as it is simple CSS preloader
+
+*/
+
+
+@import "normalize",
+
+		"general",
+
+		"grid",
+
+		"layout",
+
+		"content",
+
+		"shortcodes",
+
+		"blog",
+
+		"portfolio",
+
+		"widgets",
+
+		"wordpress",
+
+		"plugins",
+
+		"woocommerce",
+
+		"gutenberg",
+
+		"preloader";

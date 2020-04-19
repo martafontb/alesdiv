@@ -1,0 +1,16 @@
+.ish-sc_social_share {
+
+	&.ish-right{
+		float: right;
+	}
+
+	&.ish-left{
+		float: left;
+	}
+}
+
+.ish-part_content .ish-sc-element.ish-sc_social_share a,
+.ish-part_content .ish-sc-element.ish-sc_social_share a:hover {
+	/*@extend %_trans-on;
+	color: #000;*/
+}
