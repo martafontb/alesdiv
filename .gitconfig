@@ -1,2 +1,6 @@
 [core]
 	preloadIndex = false
+[alias]
+	st = status
+	ci = commit
+	co = checkout
