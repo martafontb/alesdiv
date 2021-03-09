@@ -157,7 +157,7 @@
 
 	.ish-sc_button.ish-text-color11, a.ish-sc_button.ish-text-color11
 	{
-		color: #ee295e;
+		color: OrangeRed;
 	}
 
 	.ish-sc_box.ish-text-color11 .ish-sc-element.ish-sc_icon,
@@ -168,7 +168,7 @@
 	a .ish-highlight.ish-text-color11,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color11
 	{
-		color: #ee295e !important;
+		color: OrangeRed !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color11 a:hover,
@@ -189,18 +189,18 @@
 	.wpb_row.ish-text-color11 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color11 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #d51045;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color11 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color11 a:hover
 	{
-		color: #ee295e !important;
+		color: OrangeRed !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color11 .owl-buttons div span:hover
 	{
-		color: #bc002c;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color11,
@@ -214,32 +214,32 @@
 	.ish-tagline-image.ish-text-color11 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color11 .ish-part_breadcrumbs a
 	{
-		color: #ee295e;
+		color: OrangeRed;
 	}
 
 	.ish-tagline-image.ish-text-color11 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color11 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(238, 41, 94, 0.7);*/
+		/*color: rgba(0, 10, 14, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color11 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color11 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(238, 41, 94, 0.7);
+		color: rgba(0, 10, 14, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color11 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color11 .ish-part_breadcrumbs
 	{
-		border-color: rgba(238, 41, 94, 0.5) !important;
+		border-color: rgba(0, 10, 14, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color11 :-moz-placeholder{ color: rgba(238, 41, 94, 0.6); }
-.post-password-form.ish-bg-text-color11 :-moz-placeholder{ color: rgba(238, 41, 94, 0.6); }
-.ish-sc_cf7.ish-bg-text-color11 ::-webkit-input-placeholder{ color: rgba(238, 41, 94, 0.6); }
-.post-password-form.ish-bg-text-color11 ::-webkit-input-placeholder{ color: rgba(238, 41, 94, 0.6); }
-.ish-sc_cf7.ish-bg-text-color11 .placeholder{ color: rgba(238, 41, 94, 0.6); }
-.post-password-form.ish-bg-text-color11 .placeholder{ color: rgba(238, 41, 94, 0.6); }
+.ish-sc_cf7.ish-bg-text-color11 :-moz-placeholder{ color: rgba(0, 10, 14, 0.6); }
+.post-password-form.ish-bg-text-color11 :-moz-placeholder{ color: rgba(0, 10, 14, 0.6); }
+.ish-sc_cf7.ish-bg-text-color11 ::-webkit-input-placeholder{ color: rgba(0, 10, 14, 0.6); }
+.post-password-form.ish-bg-text-color11 ::-webkit-input-placeholder{ color: rgba(0, 10, 14, 0.6); }
+.ish-sc_cf7.ish-bg-text-color11 .placeholder{ color: rgba(0, 10, 14, 0.6); }
+.post-password-form.ish-bg-text-color11 .placeholder{ color: rgba(0, 10, 14, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color11 .ish-blog-post-details,
@@ -252,12 +252,12 @@
 	.ish-tagline-colored.ish-text-color11 .ish-blog-post-details a:hover span,
 	.ish-text-color11 .ish-section-filter li a
 	{
-		color: #ee295e;
+		color: OrangeRed;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color11 .widget_search input[type='text']:-moz-placeholder           { color: rgba(238, 41, 94, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color11 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(238, 41, 94, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color11 .widget_search input[type='text'].placeholder                { color: rgba(238, 41, 94, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color11 .widget_search input[type='text']:-moz-placeholder           { color: rgba(0, 10, 14, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color11 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(0, 10, 14, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color11 .widget_search input[type='text'].placeholder                { color: rgba(0, 10, 14, 0.6); }
 	
 
 	.wpb_row.ish-color11,
@@ -330,12 +330,12 @@
 	.ish-section-filter.ish-color11 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color11 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #ee295e;
+		background-color: OrangeRed;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color11
 	{
-		background-color: #ee295e !important;
+		background-color: OrangeRed !important;
 	}
 
 	.ish-sc_icon.ish-color11.ish-square a:hover span span,
@@ -356,24 +356,24 @@
 
 	a.ish-sc_button.ish-color11:hover
 	{
-		background-color: #d51045;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color11 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color11
 	{
-		background-color: #ff4277;
+		background-color: #192327;
 	}
 
 	.ish-sc_table.ish-striped.ish-color11 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color11 tr:nth-child(even) td
 	{
-		background-color: #e41f54;
+		background-color: #000004;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color11
 	{
-		background-color: #e41f54 !important;
+		background-color: #000004 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color11,
@@ -385,8 +385,8 @@
 	.ish-sc_menu.ish-block-bg-color11 li a:hover,
 	.ish-sc_menu.ish-block-bg-color11 li.current_page_item a
 	{
-		background-color: #ee295e;
-		/*box-shadow: 0 3px 0 #d51045;*/
+		background-color: OrangeRed;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color11:hover, .ish-tgg-acc-title.ish-color11.ish-active,
@@ -398,13 +398,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color11 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color11 li.current_page_item a:hover
 	{
-		background-color: #d51045;
-		/*box-shadow: 0 3px 0 #bc002c;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #ee295e !important;
+		border-color: OrangeRed !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color11 svg polygon,
@@ -420,7 +420,7 @@
 	.ish-row_section.ish-color11 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color11 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #ee295e;
+		fill: OrangeRed;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color11 a:hover svg polygon,
@@ -428,12 +428,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color11 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color11 a:hover svg path
 	{
-		fill: #d51045;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color11 .ish-p-box
 	{
-		/*background-color: rgba(238, 41, 94, 0.3);*/
+		/*background-color: rgba(0, 10, 14, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color11 .ish-p-box,
@@ -442,7 +442,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color11 .ish-post-icon i,
 	.ish-tagline-image.ish-color11 .ish-overlay
 	{
-		background-color: #ee295e;
+		background-color: OrangeRed;
 	}
 
 	.ish-gmap_box.ish-color11:before,
@@ -455,14 +455,14 @@
 	.ish-tgg-acc-title.ish-border-color11,
 	.ish-tgg-acc-content.ish-border-color11
 	{
-		border-color: #ee295e;
+		border-color: OrangeRed;
 	}
 
 	.ish-tagline-colored.ish-text-color11 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color11 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color11, .ish-sc-element.ish-sc_quote.ish-color11:before
 	{
-		border-color: rgba(238, 41, 94, 0.4) !important;
+		border-color: rgba(0, 10, 14, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color11 .ish-blog-post-details,
@@ -470,7 +470,7 @@
 	.ish-tagline-colored.ish-text-color11 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color11 .ish-part_breadcrumbs
 	{
-		border-color: rgba(238, 41, 94, 0.25) !important;
+		border-color: rgba(0, 10, 14, 0.25) !important;
 
 	}
 
@@ -479,12 +479,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color11 li a,
 	.ish-tabs-navigation li.ish-border-color11 a
 	{
-		border-color: rgba(238, 41, 94, 0.25);
+		border-color: rgba(0, 10, 14, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color11:after
 	{
-		background-color: rgba(238, 41, 94, 0.25);
+		background-color: rgba(0, 10, 14, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color11:hover,
@@ -498,31 +498,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color11 a,
 	.ish-sc_tab.ish-border-color11
 	{
-		border-color: rgba(238, 41, 94, 0.5);
+		border-color: rgba(0, 10, 14, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color11:hover:after
 	{
-		background-color: rgba(238, 41, 94, 0.5);
+		background-color: rgba(0, 10, 14, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color11 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color11 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color11 select
 	{
-		border-color: #ff5b90;
+		border-color: #323c40;
 	}
 
 	.ish-tooltip-color11 .tooltipster-arrow-top span,
 	.ish-tooltip-color11 .tooltipster-arrow-bottom span{
-		border-top-color: #ee295e !important;
-		border-bottom-color: #ee295e !important;
+		border-top-color: OrangeRed !important;
+		border-bottom-color: OrangeRed !important;
 	}
 
 	.ish-tooltip-color11 .tooltipster-arrow-left span,
 	.ish-tooltip-color11 .tooltipster-arrow-right span{
-		border-left-color: #ee295e !important;
-		border-right-color: #ee295e !important;
+		border-left-color: OrangeRed !important;
+		border-right-color: OrangeRed !important;
 	}
 	
 
@@ -682,7 +682,7 @@
 
 	.ish-sc_button.ish-text-color12, a.ish-sc_button.ish-text-color12
 	{
-		color: #71bac9;
+		color: LightSkyBlue;
 	}
 
 	.ish-sc_box.ish-text-color12 .ish-sc-element.ish-sc_icon,
@@ -693,7 +693,7 @@
 	a .ish-highlight.ish-text-color12,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color12
 	{
-		color: #71bac9 !important;
+		color: LightSkyBlue !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color12 a:hover,
@@ -714,18 +714,18 @@
 	.wpb_row.ish-text-color12 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color12 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #58a1b0;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color12 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color12 a:hover
 	{
-		color: #71bac9 !important;
+		color: LightSkyBlue !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color12 .owl-buttons div span:hover
 	{
-		color: #3f8897;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color12,
@@ -739,32 +739,32 @@
 	.ish-tagline-image.ish-text-color12 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color12 .ish-part_breadcrumbs a
 	{
-		color: #71bac9;
+		color: LightSkyBlue;
 	}
 
 	.ish-tagline-image.ish-text-color12 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color12 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(113, 186, 201, 0.7);*/
+		/*color: rgba(0, 0, 0, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color12 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color12 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(113, 186, 201, 0.7);
+		color: rgba(0, 0, 0, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color12 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color12 .ish-part_breadcrumbs
 	{
-		border-color: rgba(113, 186, 201, 0.5) !important;
+		border-color: rgba(0, 0, 0, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color12 :-moz-placeholder{ color: rgba(113, 186, 201, 0.6); }
-.post-password-form.ish-bg-text-color12 :-moz-placeholder{ color: rgba(113, 186, 201, 0.6); }
-.ish-sc_cf7.ish-bg-text-color12 ::-webkit-input-placeholder{ color: rgba(113, 186, 201, 0.6); }
-.post-password-form.ish-bg-text-color12 ::-webkit-input-placeholder{ color: rgba(113, 186, 201, 0.6); }
-.ish-sc_cf7.ish-bg-text-color12 .placeholder{ color: rgba(113, 186, 201, 0.6); }
-.post-password-form.ish-bg-text-color12 .placeholder{ color: rgba(113, 186, 201, 0.6); }
+.ish-sc_cf7.ish-bg-text-color12 :-moz-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color12 :-moz-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color12 ::-webkit-input-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color12 ::-webkit-input-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color12 .placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color12 .placeholder{ color: rgba(0, 0, 0, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color12 .ish-blog-post-details,
@@ -777,12 +777,12 @@
 	.ish-tagline-colored.ish-text-color12 .ish-blog-post-details a:hover span,
 	.ish-text-color12 .ish-section-filter li a
 	{
-		color: #71bac9;
+		color: LightSkyBlue;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color12 .widget_search input[type='text']:-moz-placeholder           { color: rgba(113, 186, 201, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color12 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(113, 186, 201, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color12 .widget_search input[type='text'].placeholder                { color: rgba(113, 186, 201, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color12 .widget_search input[type='text']:-moz-placeholder           { color: rgba(0, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color12 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color12 .widget_search input[type='text'].placeholder                { color: rgba(0, 0, 0, 0.6); }
 	
 
 	.wpb_row.ish-color12,
@@ -855,12 +855,12 @@
 	.ish-section-filter.ish-color12 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color12 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #71bac9;
+		background-color: LightSkyBlue;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color12
 	{
-		background-color: #71bac9 !important;
+		background-color: LightSkyBlue !important;
 	}
 
 	.ish-sc_icon.ish-color12.ish-square a:hover span span,
@@ -881,24 +881,24 @@
 
 	a.ish-sc_button.ish-color12:hover
 	{
-		background-color: #58a1b0;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color12 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color12
 	{
-		background-color: #8ad3e2;
+		background-color: #191919;
 	}
 
 	.ish-sc_table.ish-striped.ish-color12 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color12 tr:nth-child(even) td
 	{
-		background-color: #67b0bf;
+		background-color: #000000;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color12
 	{
-		background-color: #67b0bf !important;
+		background-color: #000000 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color12,
@@ -910,8 +910,8 @@
 	.ish-sc_menu.ish-block-bg-color12 li a:hover,
 	.ish-sc_menu.ish-block-bg-color12 li.current_page_item a
 	{
-		background-color: #71bac9;
-		/*box-shadow: 0 3px 0 #58a1b0;*/
+		background-color: LightSkyBlue;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color12:hover, .ish-tgg-acc-title.ish-color12.ish-active,
@@ -923,13 +923,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color12 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color12 li.current_page_item a:hover
 	{
-		background-color: #58a1b0;
-		/*box-shadow: 0 3px 0 #3f8897;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #71bac9 !important;
+		border-color: LightSkyBlue !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color12 svg polygon,
@@ -945,7 +945,7 @@
 	.ish-row_section.ish-color12 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color12 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #71bac9;
+		fill: LightSkyBlue;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color12 a:hover svg polygon,
@@ -953,12 +953,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color12 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color12 a:hover svg path
 	{
-		fill: #58a1b0;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color12 .ish-p-box
 	{
-		/*background-color: rgba(113, 186, 201, 0.3);*/
+		/*background-color: rgba(0, 0, 0, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color12 .ish-p-box,
@@ -967,7 +967,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color12 .ish-post-icon i,
 	.ish-tagline-image.ish-color12 .ish-overlay
 	{
-		background-color: #71bac9;
+		background-color: LightSkyBlue;
 	}
 
 	.ish-gmap_box.ish-color12:before,
@@ -980,14 +980,14 @@
 	.ish-tgg-acc-title.ish-border-color12,
 	.ish-tgg-acc-content.ish-border-color12
 	{
-		border-color: #71bac9;
+		border-color: LightSkyBlue;
 	}
 
 	.ish-tagline-colored.ish-text-color12 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color12 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color12, .ish-sc-element.ish-sc_quote.ish-color12:before
 	{
-		border-color: rgba(113, 186, 201, 0.4) !important;
+		border-color: rgba(0, 0, 0, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color12 .ish-blog-post-details,
@@ -995,7 +995,7 @@
 	.ish-tagline-colored.ish-text-color12 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color12 .ish-part_breadcrumbs
 	{
-		border-color: rgba(113, 186, 201, 0.25) !important;
+		border-color: rgba(0, 0, 0, 0.25) !important;
 
 	}
 
@@ -1004,12 +1004,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color12 li a,
 	.ish-tabs-navigation li.ish-border-color12 a
 	{
-		border-color: rgba(113, 186, 201, 0.25);
+		border-color: rgba(0, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color12:after
 	{
-		background-color: rgba(113, 186, 201, 0.25);
+		background-color: rgba(0, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color12:hover,
@@ -1023,31 +1023,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color12 a,
 	.ish-sc_tab.ish-border-color12
 	{
-		border-color: rgba(113, 186, 201, 0.5);
+		border-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color12:hover:after
 	{
-		background-color: rgba(113, 186, 201, 0.5);
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color12 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color12 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color12 select
 	{
-		border-color: #a3ecfb;
+		border-color: #323232;
 	}
 
 	.ish-tooltip-color12 .tooltipster-arrow-top span,
 	.ish-tooltip-color12 .tooltipster-arrow-bottom span{
-		border-top-color: #71bac9 !important;
-		border-bottom-color: #71bac9 !important;
+		border-top-color: LightSkyBlue !important;
+		border-bottom-color: LightSkyBlue !important;
 	}
 
 	.ish-tooltip-color12 .tooltipster-arrow-left span,
 	.ish-tooltip-color12 .tooltipster-arrow-right span{
-		border-left-color: #71bac9 !important;
-		border-right-color: #71bac9 !important;
+		border-left-color: LightSkyBlue !important;
+		border-right-color: LightSkyBlue !important;
 	}
 	
 
@@ -2257,7 +2257,7 @@
 
 	.ish-sc_button.ish-text-color15, a.ish-sc_button.ish-text-color15
 	{
-		color: #1769ff;
+		color: RoyalBlue;
 	}
 
 	.ish-sc_box.ish-text-color15 .ish-sc-element.ish-sc_icon,
@@ -2268,7 +2268,7 @@
 	a .ish-highlight.ish-text-color15,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color15
 	{
-		color: #1769ff !important;
+		color: RoyalBlue !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color15 a:hover,
@@ -2289,18 +2289,18 @@
 	.wpb_row.ish-text-color15 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color15 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #0050e6;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color15 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color15 a:hover
 	{
-		color: #1769ff !important;
+		color: RoyalBlue !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color15 .owl-buttons div span:hover
 	{
-		color: #0037cd;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color15,
@@ -2314,32 +2314,32 @@
 	.ish-tagline-image.ish-text-color15 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color15 .ish-part_breadcrumbs a
 	{
-		color: #1769ff;
+		color: RoyalBlue;
 	}
 
 	.ish-tagline-image.ish-text-color15 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color15 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(23, 105, 255, 0.7);*/
+		/*color: rgba(0, 10, 11, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color15 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color15 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(23, 105, 255, 0.7);
+		color: rgba(0, 10, 11, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color15 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color15 .ish-part_breadcrumbs
 	{
-		border-color: rgba(23, 105, 255, 0.5) !important;
+		border-color: rgba(0, 10, 11, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color15 :-moz-placeholder{ color: rgba(23, 105, 255, 0.6); }
-.post-password-form.ish-bg-text-color15 :-moz-placeholder{ color: rgba(23, 105, 255, 0.6); }
-.ish-sc_cf7.ish-bg-text-color15 ::-webkit-input-placeholder{ color: rgba(23, 105, 255, 0.6); }
-.post-password-form.ish-bg-text-color15 ::-webkit-input-placeholder{ color: rgba(23, 105, 255, 0.6); }
-.ish-sc_cf7.ish-bg-text-color15 .placeholder{ color: rgba(23, 105, 255, 0.6); }
-.post-password-form.ish-bg-text-color15 .placeholder{ color: rgba(23, 105, 255, 0.6); }
+.ish-sc_cf7.ish-bg-text-color15 :-moz-placeholder{ color: rgba(0, 10, 11, 0.6); }
+.post-password-form.ish-bg-text-color15 :-moz-placeholder{ color: rgba(0, 10, 11, 0.6); }
+.ish-sc_cf7.ish-bg-text-color15 ::-webkit-input-placeholder{ color: rgba(0, 10, 11, 0.6); }
+.post-password-form.ish-bg-text-color15 ::-webkit-input-placeholder{ color: rgba(0, 10, 11, 0.6); }
+.ish-sc_cf7.ish-bg-text-color15 .placeholder{ color: rgba(0, 10, 11, 0.6); }
+.post-password-form.ish-bg-text-color15 .placeholder{ color: rgba(0, 10, 11, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color15 .ish-blog-post-details,
@@ -2352,12 +2352,12 @@
 	.ish-tagline-colored.ish-text-color15 .ish-blog-post-details a:hover span,
 	.ish-text-color15 .ish-section-filter li a
 	{
-		color: #1769ff;
+		color: RoyalBlue;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color15 .widget_search input[type='text']:-moz-placeholder           { color: rgba(23, 105, 255, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color15 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(23, 105, 255, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color15 .widget_search input[type='text'].placeholder                { color: rgba(23, 105, 255, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color15 .widget_search input[type='text']:-moz-placeholder           { color: rgba(0, 10, 11, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color15 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(0, 10, 11, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color15 .widget_search input[type='text'].placeholder                { color: rgba(0, 10, 11, 0.6); }
 	
 
 	.wpb_row.ish-color15,
@@ -2430,12 +2430,12 @@
 	.ish-section-filter.ish-color15 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color15 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #1769ff;
+		background-color: RoyalBlue;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color15
 	{
-		background-color: #1769ff !important;
+		background-color: RoyalBlue !important;
 	}
 
 	.ish-sc_icon.ish-color15.ish-square a:hover span span,
@@ -2456,24 +2456,24 @@
 
 	a.ish-sc_button.ish-color15:hover
 	{
-		background-color: #0050e6;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color15 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color15
 	{
-		background-color: #3082ff;
+		background-color: #192324;
 	}
 
 	.ish-sc_table.ish-striped.ish-color15 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color15 tr:nth-child(even) td
 	{
-		background-color: #0d5ff5;
+		background-color: #000001;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color15
 	{
-		background-color: #0d5ff5 !important;
+		background-color: #000001 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color15,
@@ -2485,8 +2485,8 @@
 	.ish-sc_menu.ish-block-bg-color15 li a:hover,
 	.ish-sc_menu.ish-block-bg-color15 li.current_page_item a
 	{
-		background-color: #1769ff;
-		/*box-shadow: 0 3px 0 #0050e6;*/
+		background-color: RoyalBlue;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color15:hover, .ish-tgg-acc-title.ish-color15.ish-active,
@@ -2498,13 +2498,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color15 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color15 li.current_page_item a:hover
 	{
-		background-color: #0050e6;
-		/*box-shadow: 0 3px 0 #0037cd;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #1769ff !important;
+		border-color: RoyalBlue !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color15 svg polygon,
@@ -2520,7 +2520,7 @@
 	.ish-row_section.ish-color15 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color15 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #1769ff;
+		fill: RoyalBlue;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color15 a:hover svg polygon,
@@ -2528,12 +2528,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color15 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color15 a:hover svg path
 	{
-		fill: #0050e6;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color15 .ish-p-box
 	{
-		/*background-color: rgba(23, 105, 255, 0.3);*/
+		/*background-color: rgba(0, 10, 11, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color15 .ish-p-box,
@@ -2542,7 +2542,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color15 .ish-post-icon i,
 	.ish-tagline-image.ish-color15 .ish-overlay
 	{
-		background-color: #1769ff;
+		background-color: RoyalBlue;
 	}
 
 	.ish-gmap_box.ish-color15:before,
@@ -2555,14 +2555,14 @@
 	.ish-tgg-acc-title.ish-border-color15,
 	.ish-tgg-acc-content.ish-border-color15
 	{
-		border-color: #1769ff;
+		border-color: RoyalBlue;
 	}
 
 	.ish-tagline-colored.ish-text-color15 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color15 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color15, .ish-sc-element.ish-sc_quote.ish-color15:before
 	{
-		border-color: rgba(23, 105, 255, 0.4) !important;
+		border-color: rgba(0, 10, 11, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color15 .ish-blog-post-details,
@@ -2570,7 +2570,7 @@
 	.ish-tagline-colored.ish-text-color15 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color15 .ish-part_breadcrumbs
 	{
-		border-color: rgba(23, 105, 255, 0.25) !important;
+		border-color: rgba(0, 10, 11, 0.25) !important;
 
 	}
 
@@ -2579,12 +2579,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color15 li a,
 	.ish-tabs-navigation li.ish-border-color15 a
 	{
-		border-color: rgba(23, 105, 255, 0.25);
+		border-color: rgba(0, 10, 11, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color15:after
 	{
-		background-color: rgba(23, 105, 255, 0.25);
+		background-color: rgba(0, 10, 11, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color15:hover,
@@ -2598,31 +2598,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color15 a,
 	.ish-sc_tab.ish-border-color15
 	{
-		border-color: rgba(23, 105, 255, 0.5);
+		border-color: rgba(0, 10, 11, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color15:hover:after
 	{
-		background-color: rgba(23, 105, 255, 0.5);
+		background-color: rgba(0, 10, 11, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color15 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color15 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color15 select
 	{
-		border-color: #499bff;
+		border-color: #323c3d;
 	}
 
 	.ish-tooltip-color15 .tooltipster-arrow-top span,
 	.ish-tooltip-color15 .tooltipster-arrow-bottom span{
-		border-top-color: #1769ff !important;
-		border-bottom-color: #1769ff !important;
+		border-top-color: RoyalBlue !important;
+		border-bottom-color: RoyalBlue !important;
 	}
 
 	.ish-tooltip-color15 .tooltipster-arrow-left span,
 	.ish-tooltip-color15 .tooltipster-arrow-right span{
-		border-left-color: #1769ff !important;
-		border-right-color: #1769ff !important;
+		border-left-color: RoyalBlue !important;
+		border-right-color: RoyalBlue !important;
 	}
 	
 
@@ -2782,7 +2782,7 @@
 
 	.ish-sc_button.ish-text-color16, a.ish-sc_button.ish-text-color16
 	{
-		color: #d14836;
+		color: HotPink;
 	}
 
 	.ish-sc_box.ish-text-color16 .ish-sc-element.ish-sc_icon,
@@ -2793,7 +2793,7 @@
 	a .ish-highlight.ish-text-color16,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color16
 	{
-		color: #d14836 !important;
+		color: HotPink !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color16 a:hover,
@@ -2814,18 +2814,18 @@
 	.wpb_row.ish-text-color16 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color16 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #b82f1d;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color16 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color16 a:hover
 	{
-		color: #d14836 !important;
+		color: HotPink !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color16 .owl-buttons div span:hover
 	{
-		color: #9f1604;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color16,
@@ -2839,32 +2839,32 @@
 	.ish-tagline-image.ish-text-color16 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color16 .ish-part_breadcrumbs a
 	{
-		color: #d14836;
+		color: HotPink;
 	}
 
 	.ish-tagline-image.ish-text-color16 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color16 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(209, 72, 54, 0.7);*/
+		/*color: rgba(0, 0, 0, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color16 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color16 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(209, 72, 54, 0.7);
+		color: rgba(0, 0, 0, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color16 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color16 .ish-part_breadcrumbs
 	{
-		border-color: rgba(209, 72, 54, 0.5) !important;
+		border-color: rgba(0, 0, 0, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color16 :-moz-placeholder{ color: rgba(209, 72, 54, 0.6); }
-.post-password-form.ish-bg-text-color16 :-moz-placeholder{ color: rgba(209, 72, 54, 0.6); }
-.ish-sc_cf7.ish-bg-text-color16 ::-webkit-input-placeholder{ color: rgba(209, 72, 54, 0.6); }
-.post-password-form.ish-bg-text-color16 ::-webkit-input-placeholder{ color: rgba(209, 72, 54, 0.6); }
-.ish-sc_cf7.ish-bg-text-color16 .placeholder{ color: rgba(209, 72, 54, 0.6); }
-.post-password-form.ish-bg-text-color16 .placeholder{ color: rgba(209, 72, 54, 0.6); }
+.ish-sc_cf7.ish-bg-text-color16 :-moz-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color16 :-moz-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color16 ::-webkit-input-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color16 ::-webkit-input-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color16 .placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color16 .placeholder{ color: rgba(0, 0, 0, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color16 .ish-blog-post-details,
@@ -2877,12 +2877,12 @@
 	.ish-tagline-colored.ish-text-color16 .ish-blog-post-details a:hover span,
 	.ish-text-color16 .ish-section-filter li a
 	{
-		color: #d14836;
+		color: HotPink;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color16 .widget_search input[type='text']:-moz-placeholder           { color: rgba(209, 72, 54, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color16 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(209, 72, 54, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color16 .widget_search input[type='text'].placeholder                { color: rgba(209, 72, 54, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color16 .widget_search input[type='text']:-moz-placeholder           { color: rgba(0, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color16 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color16 .widget_search input[type='text'].placeholder                { color: rgba(0, 0, 0, 0.6); }
 	
 
 	.wpb_row.ish-color16,
@@ -2955,12 +2955,12 @@
 	.ish-section-filter.ish-color16 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color16 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #d14836;
+		background-color: HotPink;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color16
 	{
-		background-color: #d14836 !important;
+		background-color: HotPink !important;
 	}
 
 	.ish-sc_icon.ish-color16.ish-square a:hover span span,
@@ -2981,24 +2981,24 @@
 
 	a.ish-sc_button.ish-color16:hover
 	{
-		background-color: #b82f1d;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color16 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color16
 	{
-		background-color: #ea614f;
+		background-color: #191919;
 	}
 
 	.ish-sc_table.ish-striped.ish-color16 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color16 tr:nth-child(even) td
 	{
-		background-color: #c73e2c;
+		background-color: #000000;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color16
 	{
-		background-color: #c73e2c !important;
+		background-color: #000000 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color16,
@@ -3010,8 +3010,8 @@
 	.ish-sc_menu.ish-block-bg-color16 li a:hover,
 	.ish-sc_menu.ish-block-bg-color16 li.current_page_item a
 	{
-		background-color: #d14836;
-		/*box-shadow: 0 3px 0 #b82f1d;*/
+		background-color: HotPink;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color16:hover, .ish-tgg-acc-title.ish-color16.ish-active,
@@ -3023,13 +3023,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color16 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color16 li.current_page_item a:hover
 	{
-		background-color: #b82f1d;
-		/*box-shadow: 0 3px 0 #9f1604;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #d14836 !important;
+		border-color: HotPink !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color16 svg polygon,
@@ -3045,7 +3045,7 @@
 	.ish-row_section.ish-color16 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color16 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #d14836;
+		fill: HotPink;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color16 a:hover svg polygon,
@@ -3053,12 +3053,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color16 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color16 a:hover svg path
 	{
-		fill: #b82f1d;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color16 .ish-p-box
 	{
-		/*background-color: rgba(209, 72, 54, 0.3);*/
+		/*background-color: rgba(0, 0, 0, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color16 .ish-p-box,
@@ -3067,7 +3067,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color16 .ish-post-icon i,
 	.ish-tagline-image.ish-color16 .ish-overlay
 	{
-		background-color: #d14836;
+		background-color: HotPink;
 	}
 
 	.ish-gmap_box.ish-color16:before,
@@ -3080,14 +3080,14 @@
 	.ish-tgg-acc-title.ish-border-color16,
 	.ish-tgg-acc-content.ish-border-color16
 	{
-		border-color: #d14836;
+		border-color: HotPink;
 	}
 
 	.ish-tagline-colored.ish-text-color16 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color16 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color16, .ish-sc-element.ish-sc_quote.ish-color16:before
 	{
-		border-color: rgba(209, 72, 54, 0.4) !important;
+		border-color: rgba(0, 0, 0, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color16 .ish-blog-post-details,
@@ -3095,7 +3095,7 @@
 	.ish-tagline-colored.ish-text-color16 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color16 .ish-part_breadcrumbs
 	{
-		border-color: rgba(209, 72, 54, 0.25) !important;
+		border-color: rgba(0, 0, 0, 0.25) !important;
 
 	}
 
@@ -3104,12 +3104,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color16 li a,
 	.ish-tabs-navigation li.ish-border-color16 a
 	{
-		border-color: rgba(209, 72, 54, 0.25);
+		border-color: rgba(0, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color16:after
 	{
-		background-color: rgba(209, 72, 54, 0.25);
+		background-color: rgba(0, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color16:hover,
@@ -3123,31 +3123,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color16 a,
 	.ish-sc_tab.ish-border-color16
 	{
-		border-color: rgba(209, 72, 54, 0.5);
+		border-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color16:hover:after
 	{
-		background-color: rgba(209, 72, 54, 0.5);
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color16 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color16 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color16 select
 	{
-		border-color: #ff7a68;
+		border-color: #323232;
 	}
 
 	.ish-tooltip-color16 .tooltipster-arrow-top span,
 	.ish-tooltip-color16 .tooltipster-arrow-bottom span{
-		border-top-color: #d14836 !important;
-		border-bottom-color: #d14836 !important;
+		border-top-color: HotPink !important;
+		border-bottom-color: HotPink !important;
 	}
 
 	.ish-tooltip-color16 .tooltipster-arrow-left span,
 	.ish-tooltip-color16 .tooltipster-arrow-right span{
-		border-left-color: #d14836 !important;
-		border-right-color: #d14836 !important;
+		border-left-color: HotPink !important;
+		border-right-color: HotPink !important;
 	}
 	
 
@@ -3307,7 +3307,7 @@
 
 	.ish-sc_button.ish-text-color17, a.ish-sc_button.ish-text-color17
 	{
-		color: #4880d4;
+		color: Peru;
 	}
 
 	.ish-sc_box.ish-text-color17 .ish-sc-element.ish-sc_icon,
@@ -3318,7 +3318,7 @@
 	a .ish-highlight.ish-text-color17,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color17
 	{
-		color: #4880d4 !important;
+		color: Peru !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color17 a:hover,
@@ -3339,18 +3339,18 @@
 	.wpb_row.ish-text-color17 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color17 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #2f67bb;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color17 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color17 a:hover
 	{
-		color: #4880d4 !important;
+		color: Peru !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color17 .owl-buttons div span:hover
 	{
-		color: #164ea2;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color17,
@@ -3364,32 +3364,32 @@
 	.ish-tagline-image.ish-text-color17 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color17 .ish-part_breadcrumbs a
 	{
-		color: #4880d4;
+		color: Peru;
 	}
 
 	.ish-tagline-image.ish-text-color17 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color17 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(72, 128, 212, 0.7);*/
+		/*color: rgba(14, 0, 0, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color17 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color17 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(72, 128, 212, 0.7);
+		color: rgba(14, 0, 0, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color17 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color17 .ish-part_breadcrumbs
 	{
-		border-color: rgba(72, 128, 212, 0.5) !important;
+		border-color: rgba(14, 0, 0, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color17 :-moz-placeholder{ color: rgba(72, 128, 212, 0.6); }
-.post-password-form.ish-bg-text-color17 :-moz-placeholder{ color: rgba(72, 128, 212, 0.6); }
-.ish-sc_cf7.ish-bg-text-color17 ::-webkit-input-placeholder{ color: rgba(72, 128, 212, 0.6); }
-.post-password-form.ish-bg-text-color17 ::-webkit-input-placeholder{ color: rgba(72, 128, 212, 0.6); }
-.ish-sc_cf7.ish-bg-text-color17 .placeholder{ color: rgba(72, 128, 212, 0.6); }
-.post-password-form.ish-bg-text-color17 .placeholder{ color: rgba(72, 128, 212, 0.6); }
+.ish-sc_cf7.ish-bg-text-color17 :-moz-placeholder{ color: rgba(14, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color17 :-moz-placeholder{ color: rgba(14, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color17 ::-webkit-input-placeholder{ color: rgba(14, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color17 ::-webkit-input-placeholder{ color: rgba(14, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color17 .placeholder{ color: rgba(14, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color17 .placeholder{ color: rgba(14, 0, 0, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color17 .ish-blog-post-details,
@@ -3402,12 +3402,12 @@
 	.ish-tagline-colored.ish-text-color17 .ish-blog-post-details a:hover span,
 	.ish-text-color17 .ish-section-filter li a
 	{
-		color: #4880d4;
+		color: Peru;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color17 .widget_search input[type='text']:-moz-placeholder           { color: rgba(72, 128, 212, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color17 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(72, 128, 212, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color17 .widget_search input[type='text'].placeholder                { color: rgba(72, 128, 212, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color17 .widget_search input[type='text']:-moz-placeholder           { color: rgba(14, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color17 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(14, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color17 .widget_search input[type='text'].placeholder                { color: rgba(14, 0, 0, 0.6); }
 	
 
 	.wpb_row.ish-color17,
@@ -3480,12 +3480,12 @@
 	.ish-section-filter.ish-color17 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color17 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #4880d4;
+		background-color: Peru;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color17
 	{
-		background-color: #4880d4 !important;
+		background-color: Peru !important;
 	}
 
 	.ish-sc_icon.ish-color17.ish-square a:hover span span,
@@ -3506,24 +3506,24 @@
 
 	a.ish-sc_button.ish-color17:hover
 	{
-		background-color: #2f67bb;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color17 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color17
 	{
-		background-color: #6199ed;
+		background-color: #271919;
 	}
 
 	.ish-sc_table.ish-striped.ish-color17 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color17 tr:nth-child(even) td
 	{
-		background-color: #3e76ca;
+		background-color: #040000;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color17
 	{
-		background-color: #3e76ca !important;
+		background-color: #040000 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color17,
@@ -3535,8 +3535,8 @@
 	.ish-sc_menu.ish-block-bg-color17 li a:hover,
 	.ish-sc_menu.ish-block-bg-color17 li.current_page_item a
 	{
-		background-color: #4880d4;
-		/*box-shadow: 0 3px 0 #2f67bb;*/
+		background-color: Peru;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color17:hover, .ish-tgg-acc-title.ish-color17.ish-active,
@@ -3548,13 +3548,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color17 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color17 li.current_page_item a:hover
 	{
-		background-color: #2f67bb;
-		/*box-shadow: 0 3px 0 #164ea2;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #4880d4 !important;
+		border-color: Peru !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color17 svg polygon,
@@ -3570,7 +3570,7 @@
 	.ish-row_section.ish-color17 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color17 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #4880d4;
+		fill: Peru;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color17 a:hover svg polygon,
@@ -3578,12 +3578,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color17 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color17 a:hover svg path
 	{
-		fill: #2f67bb;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color17 .ish-p-box
 	{
-		/*background-color: rgba(72, 128, 212, 0.3);*/
+		/*background-color: rgba(14, 0, 0, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color17 .ish-p-box,
@@ -3592,7 +3592,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color17 .ish-post-icon i,
 	.ish-tagline-image.ish-color17 .ish-overlay
 	{
-		background-color: #4880d4;
+		background-color: Peru;
 	}
 
 	.ish-gmap_box.ish-color17:before,
@@ -3605,14 +3605,14 @@
 	.ish-tgg-acc-title.ish-border-color17,
 	.ish-tgg-acc-content.ish-border-color17
 	{
-		border-color: #4880d4;
+		border-color: Peru;
 	}
 
 	.ish-tagline-colored.ish-text-color17 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color17 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color17, .ish-sc-element.ish-sc_quote.ish-color17:before
 	{
-		border-color: rgba(72, 128, 212, 0.4) !important;
+		border-color: rgba(14, 0, 0, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color17 .ish-blog-post-details,
@@ -3620,7 +3620,7 @@
 	.ish-tagline-colored.ish-text-color17 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color17 .ish-part_breadcrumbs
 	{
-		border-color: rgba(72, 128, 212, 0.25) !important;
+		border-color: rgba(14, 0, 0, 0.25) !important;
 
 	}
 
@@ -3629,12 +3629,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color17 li a,
 	.ish-tabs-navigation li.ish-border-color17 a
 	{
-		border-color: rgba(72, 128, 212, 0.25);
+		border-color: rgba(14, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color17:after
 	{
-		background-color: rgba(72, 128, 212, 0.25);
+		background-color: rgba(14, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color17:hover,
@@ -3648,31 +3648,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color17 a,
 	.ish-sc_tab.ish-border-color17
 	{
-		border-color: rgba(72, 128, 212, 0.5);
+		border-color: rgba(14, 0, 0, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color17:hover:after
 	{
-		background-color: rgba(72, 128, 212, 0.5);
+		background-color: rgba(14, 0, 0, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color17 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color17 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color17 select
 	{
-		border-color: #7ab2ff;
+		border-color: #403232;
 	}
 
 	.ish-tooltip-color17 .tooltipster-arrow-top span,
 	.ish-tooltip-color17 .tooltipster-arrow-bottom span{
-		border-top-color: #4880d4 !important;
-		border-bottom-color: #4880d4 !important;
+		border-top-color: Peru !important;
+		border-bottom-color: Peru !important;
 	}
 
 	.ish-tooltip-color17 .tooltipster-arrow-left span,
 	.ish-tooltip-color17 .tooltipster-arrow-right span{
-		border-left-color: #4880d4 !important;
-		border-right-color: #4880d4 !important;
+		border-left-color: Peru !important;
+		border-right-color: Peru !important;
 	}
 	
 
@@ -3832,7 +3832,7 @@
 
 	.ish-sc_button.ish-text-color18, a.ish-sc_button.ish-text-color18
 	{
-		color: #cb2027;
+		color: LightGreen;
 	}
 
 	.ish-sc_box.ish-text-color18 .ish-sc-element.ish-sc_icon,
@@ -3843,7 +3843,7 @@
 	a .ish-highlight.ish-text-color18,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color18
 	{
-		color: #cb2027 !important;
+		color: LightGreen !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color18 a:hover,
@@ -3864,18 +3864,18 @@
 	.wpb_row.ish-text-color18 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color18 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #b2070e;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color18 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color18 a:hover
 	{
-		color: #cb2027 !important;
+		color: LightGreen !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color18 .owl-buttons div span:hover
 	{
-		color: #990000;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color18,
@@ -3889,32 +3889,32 @@
 	.ish-tagline-image.ish-text-color18 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color18 .ish-part_breadcrumbs a
 	{
-		color: #cb2027;
+		color: LightGreen;
 	}
 
 	.ish-tagline-image.ish-text-color18 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color18 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(203, 32, 39, 0.7);*/
+		/*color: rgba(0, 0, 0, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color18 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color18 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(203, 32, 39, 0.7);
+		color: rgba(0, 0, 0, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color18 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color18 .ish-part_breadcrumbs
 	{
-		border-color: rgba(203, 32, 39, 0.5) !important;
+		border-color: rgba(0, 0, 0, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color18 :-moz-placeholder{ color: rgba(203, 32, 39, 0.6); }
-.post-password-form.ish-bg-text-color18 :-moz-placeholder{ color: rgba(203, 32, 39, 0.6); }
-.ish-sc_cf7.ish-bg-text-color18 ::-webkit-input-placeholder{ color: rgba(203, 32, 39, 0.6); }
-.post-password-form.ish-bg-text-color18 ::-webkit-input-placeholder{ color: rgba(203, 32, 39, 0.6); }
-.ish-sc_cf7.ish-bg-text-color18 .placeholder{ color: rgba(203, 32, 39, 0.6); }
-.post-password-form.ish-bg-text-color18 .placeholder{ color: rgba(203, 32, 39, 0.6); }
+.ish-sc_cf7.ish-bg-text-color18 :-moz-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color18 :-moz-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color18 ::-webkit-input-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color18 ::-webkit-input-placeholder{ color: rgba(0, 0, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color18 .placeholder{ color: rgba(0, 0, 0, 0.6); }
+.post-password-form.ish-bg-text-color18 .placeholder{ color: rgba(0, 0, 0, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color18 .ish-blog-post-details,
@@ -3927,12 +3927,12 @@
 	.ish-tagline-colored.ish-text-color18 .ish-blog-post-details a:hover span,
 	.ish-text-color18 .ish-section-filter li a
 	{
-		color: #cb2027;
+		color: LightGreen;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color18 .widget_search input[type='text']:-moz-placeholder           { color: rgba(203, 32, 39, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color18 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(203, 32, 39, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color18 .widget_search input[type='text'].placeholder                { color: rgba(203, 32, 39, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color18 .widget_search input[type='text']:-moz-placeholder           { color: rgba(0, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color18 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color18 .widget_search input[type='text'].placeholder                { color: rgba(0, 0, 0, 0.6); }
 	
 
 	.wpb_row.ish-color18,
@@ -4005,12 +4005,12 @@
 	.ish-section-filter.ish-color18 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color18 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #cb2027;
+		background-color: LightGreen;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color18
 	{
-		background-color: #cb2027 !important;
+		background-color: LightGreen !important;
 	}
 
 	.ish-sc_icon.ish-color18.ish-square a:hover span span,
@@ -4031,24 +4031,24 @@
 
 	a.ish-sc_button.ish-color18:hover
 	{
-		background-color: #b2070e;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color18 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color18
 	{
-		background-color: #e43940;
+		background-color: #191919;
 	}
 
 	.ish-sc_table.ish-striped.ish-color18 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color18 tr:nth-child(even) td
 	{
-		background-color: #c1161d;
+		background-color: #000000;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color18
 	{
-		background-color: #c1161d !important;
+		background-color: #000000 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color18,
@@ -4060,8 +4060,8 @@
 	.ish-sc_menu.ish-block-bg-color18 li a:hover,
 	.ish-sc_menu.ish-block-bg-color18 li.current_page_item a
 	{
-		background-color: #cb2027;
-		/*box-shadow: 0 3px 0 #b2070e;*/
+		background-color: LightGreen;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color18:hover, .ish-tgg-acc-title.ish-color18.ish-active,
@@ -4073,13 +4073,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color18 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color18 li.current_page_item a:hover
 	{
-		background-color: #b2070e;
-		/*box-shadow: 0 3px 0 #990000;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #cb2027 !important;
+		border-color: LightGreen !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color18 svg polygon,
@@ -4095,7 +4095,7 @@
 	.ish-row_section.ish-color18 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color18 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #cb2027;
+		fill: LightGreen;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color18 a:hover svg polygon,
@@ -4103,12 +4103,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color18 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color18 a:hover svg path
 	{
-		fill: #b2070e;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color18 .ish-p-box
 	{
-		/*background-color: rgba(203, 32, 39, 0.3);*/
+		/*background-color: rgba(0, 0, 0, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color18 .ish-p-box,
@@ -4117,7 +4117,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color18 .ish-post-icon i,
 	.ish-tagline-image.ish-color18 .ish-overlay
 	{
-		background-color: #cb2027;
+		background-color: LightGreen;
 	}
 
 	.ish-gmap_box.ish-color18:before,
@@ -4130,14 +4130,14 @@
 	.ish-tgg-acc-title.ish-border-color18,
 	.ish-tgg-acc-content.ish-border-color18
 	{
-		border-color: #cb2027;
+		border-color: LightGreen;
 	}
 
 	.ish-tagline-colored.ish-text-color18 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color18 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color18, .ish-sc-element.ish-sc_quote.ish-color18:before
 	{
-		border-color: rgba(203, 32, 39, 0.4) !important;
+		border-color: rgba(0, 0, 0, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color18 .ish-blog-post-details,
@@ -4145,7 +4145,7 @@
 	.ish-tagline-colored.ish-text-color18 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color18 .ish-part_breadcrumbs
 	{
-		border-color: rgba(203, 32, 39, 0.25) !important;
+		border-color: rgba(0, 0, 0, 0.25) !important;
 
 	}
 
@@ -4154,12 +4154,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color18 li a,
 	.ish-tabs-navigation li.ish-border-color18 a
 	{
-		border-color: rgba(203, 32, 39, 0.25);
+		border-color: rgba(0, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color18:after
 	{
-		background-color: rgba(203, 32, 39, 0.25);
+		background-color: rgba(0, 0, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color18:hover,
@@ -4173,31 +4173,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color18 a,
 	.ish-sc_tab.ish-border-color18
 	{
-		border-color: rgba(203, 32, 39, 0.5);
+		border-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color18:hover:after
 	{
-		background-color: rgba(203, 32, 39, 0.5);
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color18 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color18 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color18 select
 	{
-		border-color: #fd5259;
+		border-color: #323232;
 	}
 
 	.ish-tooltip-color18 .tooltipster-arrow-top span,
 	.ish-tooltip-color18 .tooltipster-arrow-bottom span{
-		border-top-color: #cb2027 !important;
-		border-bottom-color: #cb2027 !important;
+		border-top-color: LightGreen !important;
+		border-bottom-color: LightGreen !important;
 	}
 
 	.ish-tooltip-color18 .tooltipster-arrow-left span,
 	.ish-tooltip-color18 .tooltipster-arrow-right span{
-		border-left-color: #cb2027 !important;
-		border-right-color: #cb2027 !important;
+		border-left-color: LightGreen !important;
+		border-right-color: LightGreen !important;
 	}
 	
 
@@ -4357,7 +4357,7 @@
 
 	.ish-sc_button.ish-text-color19, a.ish-sc_button.ish-text-color19
 	{
-		color: #efb4b6;
+		color: red;
 	}
 
 	.ish-sc_box.ish-text-color19 .ish-sc-element.ish-sc_icon,
@@ -4368,7 +4368,7 @@
 	a .ish-highlight.ish-text-color19,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color19
 	{
-		color: #efb4b6 !important;
+		color: red !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color19 a:hover,
@@ -4389,18 +4389,18 @@
 	.wpb_row.ish-text-color19 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color19 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #d69b9d;
+		color: #00d5c4;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color19 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color19 a:hover
 	{
-		color: #efb4b6 !important;
+		color: red !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color19 .owl-buttons div span:hover
 	{
-		color: #bd8284;
+		color: #00bcab;
 	}
 
 	.ish-tagline-image.ish-text-color19,
@@ -4414,32 +4414,32 @@
 	.ish-tagline-image.ish-text-color19 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color19 .ish-part_breadcrumbs a
 	{
-		color: #efb4b6;
+		color: red;
 	}
 
 	.ish-tagline-image.ish-text-color19 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color19 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(239, 180, 182, 0.7);*/
+		/*color: rgba(0, 238, 221, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color19 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color19 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(239, 180, 182, 0.7);
+		color: rgba(0, 238, 221, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color19 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color19 .ish-part_breadcrumbs
 	{
-		border-color: rgba(239, 180, 182, 0.5) !important;
+		border-color: rgba(0, 238, 221, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color19 :-moz-placeholder{ color: rgba(239, 180, 182, 0.6); }
-.post-password-form.ish-bg-text-color19 :-moz-placeholder{ color: rgba(239, 180, 182, 0.6); }
-.ish-sc_cf7.ish-bg-text-color19 ::-webkit-input-placeholder{ color: rgba(239, 180, 182, 0.6); }
-.post-password-form.ish-bg-text-color19 ::-webkit-input-placeholder{ color: rgba(239, 180, 182, 0.6); }
-.ish-sc_cf7.ish-bg-text-color19 .placeholder{ color: rgba(239, 180, 182, 0.6); }
-.post-password-form.ish-bg-text-color19 .placeholder{ color: rgba(239, 180, 182, 0.6); }
+.ish-sc_cf7.ish-bg-text-color19 :-moz-placeholder{ color: rgba(0, 238, 221, 0.6); }
+.post-password-form.ish-bg-text-color19 :-moz-placeholder{ color: rgba(0, 238, 221, 0.6); }
+.ish-sc_cf7.ish-bg-text-color19 ::-webkit-input-placeholder{ color: rgba(0, 238, 221, 0.6); }
+.post-password-form.ish-bg-text-color19 ::-webkit-input-placeholder{ color: rgba(0, 238, 221, 0.6); }
+.ish-sc_cf7.ish-bg-text-color19 .placeholder{ color: rgba(0, 238, 221, 0.6); }
+.post-password-form.ish-bg-text-color19 .placeholder{ color: rgba(0, 238, 221, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color19 .ish-blog-post-details,
@@ -4452,12 +4452,12 @@
 	.ish-tagline-colored.ish-text-color19 .ish-blog-post-details a:hover span,
 	.ish-text-color19 .ish-section-filter li a
 	{
-		color: #efb4b6;
+		color: red;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color19 .widget_search input[type='text']:-moz-placeholder           { color: rgba(239, 180, 182, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color19 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(239, 180, 182, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color19 .widget_search input[type='text'].placeholder                { color: rgba(239, 180, 182, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color19 .widget_search input[type='text']:-moz-placeholder           { color: rgba(0, 238, 221, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color19 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(0, 238, 221, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color19 .widget_search input[type='text'].placeholder                { color: rgba(0, 238, 221, 0.6); }
 	
 
 	.wpb_row.ish-color19,
@@ -4530,12 +4530,12 @@
 	.ish-section-filter.ish-color19 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color19 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #efb4b6;
+		background-color: red;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color19
 	{
-		background-color: #efb4b6 !important;
+		background-color: red !important;
 	}
 
 	.ish-sc_icon.ish-color19.ish-square a:hover span span,
@@ -4556,24 +4556,24 @@
 
 	a.ish-sc_button.ish-color19:hover
 	{
-		background-color: #d69b9d;
+		background-color: #00d5c4;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color19 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color19
 	{
-		background-color: #ffcdcf;
+		background-color: #19fff6;
 	}
 
 	.ish-sc_table.ish-striped.ish-color19 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color19 tr:nth-child(even) td
 	{
-		background-color: #e5aaac;
+		background-color: #00e4d3;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color19
 	{
-		background-color: #e5aaac !important;
+		background-color: #00e4d3 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color19,
@@ -4585,8 +4585,8 @@
 	.ish-sc_menu.ish-block-bg-color19 li a:hover,
 	.ish-sc_menu.ish-block-bg-color19 li.current_page_item a
 	{
-		background-color: #efb4b6;
-		/*box-shadow: 0 3px 0 #d69b9d;*/
+		background-color: red;
+		/*box-shadow: 0 3px 0 #00d5c4;*/
 	}
 
 	.ish-tgg-acc-title.ish-color19:hover, .ish-tgg-acc-title.ish-color19.ish-active,
@@ -4598,13 +4598,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color19 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color19 li.current_page_item a:hover
 	{
-		background-color: #d69b9d;
-		/*box-shadow: 0 3px 0 #bd8284;*/
+		background-color: #00d5c4;
+		/*box-shadow: 0 3px 0 #00bcab;*/
 	}
 
 	.c
 	{
-		border-color: #efb4b6 !important;
+		border-color: red !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color19 svg polygon,
@@ -4620,7 +4620,7 @@
 	.ish-row_section.ish-color19 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color19 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #efb4b6;
+		fill: red;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color19 a:hover svg polygon,
@@ -4628,12 +4628,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color19 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color19 a:hover svg path
 	{
-		fill: #d69b9d;
+		fill: #00d5c4;
 	}
 
 	.ish-p-overlay.ish-color19 .ish-p-box
 	{
-		/*background-color: rgba(239, 180, 182, 0.3);*/
+		/*background-color: rgba(0, 238, 221, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color19 .ish-p-box,
@@ -4642,7 +4642,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color19 .ish-post-icon i,
 	.ish-tagline-image.ish-color19 .ish-overlay
 	{
-		background-color: #efb4b6;
+		background-color: red;
 	}
 
 	.ish-gmap_box.ish-color19:before,
@@ -4655,14 +4655,14 @@
 	.ish-tgg-acc-title.ish-border-color19,
 	.ish-tgg-acc-content.ish-border-color19
 	{
-		border-color: #efb4b6;
+		border-color: red;
 	}
 
 	.ish-tagline-colored.ish-text-color19 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color19 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color19, .ish-sc-element.ish-sc_quote.ish-color19:before
 	{
-		border-color: rgba(239, 180, 182, 0.4) !important;
+		border-color: rgba(0, 238, 221, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color19 .ish-blog-post-details,
@@ -4670,7 +4670,7 @@
 	.ish-tagline-colored.ish-text-color19 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color19 .ish-part_breadcrumbs
 	{
-		border-color: rgba(239, 180, 182, 0.25) !important;
+		border-color: rgba(0, 238, 221, 0.25) !important;
 
 	}
 
@@ -4679,12 +4679,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color19 li a,
 	.ish-tabs-navigation li.ish-border-color19 a
 	{
-		border-color: rgba(239, 180, 182, 0.25);
+		border-color: rgba(0, 238, 221, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color19:after
 	{
-		background-color: rgba(239, 180, 182, 0.25);
+		background-color: rgba(0, 238, 221, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color19:hover,
@@ -4698,31 +4698,31 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color19 a,
 	.ish-sc_tab.ish-border-color19
 	{
-		border-color: rgba(239, 180, 182, 0.5);
+		border-color: rgba(0, 238, 221, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color19:hover:after
 	{
-		background-color: rgba(239, 180, 182, 0.5);
+		background-color: rgba(0, 238, 221, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color19 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color19 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color19 select
 	{
-		border-color: #ffe6e8;
+		border-color: #32ffff;
 	}
 
 	.ish-tooltip-color19 .tooltipster-arrow-top span,
 	.ish-tooltip-color19 .tooltipster-arrow-bottom span{
-		border-top-color: #efb4b6 !important;
-		border-bottom-color: #efb4b6 !important;
+		border-top-color: red !important;
+		border-bottom-color: red !important;
 	}
 
 	.ish-tooltip-color19 .tooltipster-arrow-left span,
 	.ish-tooltip-color19 .tooltipster-arrow-right span{
-		border-left-color: #efb4b6 !important;
-		border-right-color: #efb4b6 !important;
+		border-left-color: red !important;
+		border-right-color: red !important;
 	}
 	
 
@@ -4882,7 +4882,7 @@
 
 	.ish-sc_button.ish-text-color20, a.ish-sc_button.ish-text-color20
 	{
-		color: #9e9bba;
+		color: MediumPurple;
 	}
 
 	.ish-sc_box.ish-text-color20 .ish-sc-element.ish-sc_icon,
@@ -4893,7 +4893,7 @@
 	a .ish-highlight.ish-text-color20,
 	.ish-tgg-acc-title.ish-active.ish-active-text-color20
 	{
-		color: #9e9bba !important;
+		color: MediumPurple !important;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-text-color20 a:hover,
@@ -4914,18 +4914,18 @@
 	.wpb_row.ish-text-color20 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover,
 	.wpb_row .ish-sc-element.ish-text-color20 .ish-sc_headline.ish-no-underline:not([class*="ish-color"]) a:hover
 	{
-		color: #8582a1;
+		color: #000000;
 	}
 
 	.ish-sc-element.ish-sc_icon.ish-simple.ish-active-text-color20 a:hover,
 	.ish-part_footer .ish-sc-element.ish-sc_icon.ish-active-text-color20 a:hover
 	{
-		color: #9e9bba !important;
+		color: MediumPurple !important;
 	}
 
 	.ish-sc-element.ish-prevnext-color20 .owl-buttons div span:hover
 	{
-		color: #6c6988;
+		color: #000000;
 	}
 
 	.ish-tagline-image.ish-text-color20,
@@ -4939,32 +4939,32 @@
 	.ish-tagline-image.ish-text-color20 .ish-part_breadcrumbs a,
 	.ish-tagline-colored.ish-text-color20 .ish-part_breadcrumbs a
 	{
-		color: #9e9bba;
+		color: MediumPurple;
 	}
 
 	.ish-tagline-image.ish-text-color20 .ish-part_breadcrumbs div,
 	.ish-tagline-colored.ish-text-color20 .ish-part_breadcrumbs div
 	{
-		/*color: rgba(158, 155, 186, 0.7);*/
+		/*color: rgba(14, 13, 0, 0.7);*/
 	}
 
 	.ish-tagline-image.ish-text-color20 .ish-part_breadcrumbs a:hover,
 	.ish-tagline-colored.ish-text-color20 .ish-part_breadcrumbs a:hover
 	{
-		color: rgba(158, 155, 186, 0.7);
+		color: rgba(14, 13, 0, 0.7);
 	}
 
 	.ish-tagline-image.ish-text-color20 .ish-part_breadcrumbs,
 	.ish-tagline-colored.ish-text-color20 .ish-part_breadcrumbs
 	{
-		border-color: rgba(158, 155, 186, 0.5) !important;
+		border-color: rgba(14, 13, 0, 0.5) !important;
 	}
-.ish-sc_cf7.ish-bg-text-color20 :-moz-placeholder{ color: rgba(158, 155, 186, 0.6); }
-.post-password-form.ish-bg-text-color20 :-moz-placeholder{ color: rgba(158, 155, 186, 0.6); }
-.ish-sc_cf7.ish-bg-text-color20 ::-webkit-input-placeholder{ color: rgba(158, 155, 186, 0.6); }
-.post-password-form.ish-bg-text-color20 ::-webkit-input-placeholder{ color: rgba(158, 155, 186, 0.6); }
-.ish-sc_cf7.ish-bg-text-color20 .placeholder{ color: rgba(158, 155, 186, 0.6); }
-.post-password-form.ish-bg-text-color20 .placeholder{ color: rgba(158, 155, 186, 0.6); }
+.ish-sc_cf7.ish-bg-text-color20 :-moz-placeholder{ color: rgba(14, 13, 0, 0.6); }
+.post-password-form.ish-bg-text-color20 :-moz-placeholder{ color: rgba(14, 13, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color20 ::-webkit-input-placeholder{ color: rgba(14, 13, 0, 0.6); }
+.post-password-form.ish-bg-text-color20 ::-webkit-input-placeholder{ color: rgba(14, 13, 0, 0.6); }
+.ish-sc_cf7.ish-bg-text-color20 .placeholder{ color: rgba(14, 13, 0, 0.6); }
+.post-password-form.ish-bg-text-color20 .placeholder{ color: rgba(14, 13, 0, 0.6); }
 
 
 	.ish-tagline-image.ish-text-color20 .ish-blog-post-details,
@@ -4977,12 +4977,12 @@
 	.ish-tagline-colored.ish-text-color20 .ish-blog-post-details a:hover span,
 	.ish-text-color20 .ish-section-filter li a
 	{
-		color: #9e9bba;
+		color: MediumPurple;
 	}
 
-	.ish-sc_sidebar.ish-block-text-color20 .widget_search input[type='text']:-moz-placeholder           { color: rgba(158, 155, 186, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color20 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(158, 155, 186, 0.6); }
-	.ish-sc_sidebar.ish-block-text-color20 .widget_search input[type='text'].placeholder                { color: rgba(158, 155, 186, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color20 .widget_search input[type='text']:-moz-placeholder           { color: rgba(14, 13, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color20 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(14, 13, 0, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color20 .widget_search input[type='text'].placeholder                { color: rgba(14, 13, 0, 0.6); }
 	
 
 	.wpb_row.ish-color20,
@@ -5055,12 +5055,12 @@
 	.ish-section-filter.ish-color20 .ish-p-filter li a.ish-active,
 	.ish-section-filter.ish-color20 .ish-p-filter li.current-cat a:hover
 	{
-		background-color: #9e9bba;
+		background-color: MediumPurple;
 	}
 
 	.ish-tgg-acc-title.ish-active.ish-active-color20
 	{
-		background-color: #9e9bba !important;
+		background-color: MediumPurple !important;
 	}
 
 	.ish-sc_icon.ish-color20.ish-square a:hover span span,
@@ -5081,24 +5081,24 @@
 
 	a.ish-sc_button.ish-color20:hover
 	{
-		background-color: #8582a1;
+		background-color: #000000;
 	}
 
 	.ish-blog.ish-blog-2columns .ish-post-media.ish-color20 .ish-blog-post-media,
 	.ish-blog.ish-blog-2columns .ish-post-media .ish-blog-audio-content.ish-color20
 	{
-		background-color: #b7b4d3;
+		background-color: #272619;
 	}
 
 	.ish-sc_table.ish-striped.ish-color20 table tr:nth-child(even) td,
 	.ish-sc_pricing_table.ish-striped.ish-color20 tr:nth-child(even) td
 	{
-		background-color: #9491b0;
+		background-color: #040300;
 	}
 
 	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color20
 	{
-		background-color: #9491b0 !important;
+		background-color: #040300 !important;
 	}
 
 	.ish-tgg-acc-title.ish-color20,
@@ -5110,8 +5110,8 @@
 	.ish-sc_menu.ish-block-bg-color20 li a:hover,
 	.ish-sc_menu.ish-block-bg-color20 li.current_page_item a
 	{
-		background-color: #9e9bba;
-		/*box-shadow: 0 3px 0 #8582a1;*/
+		background-color: MediumPurple;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.ish-tgg-acc-title.ish-color20:hover, .ish-tgg-acc-title.ish-color20.ish-active,
@@ -5123,13 +5123,13 @@
 	.ish-sc_menu.ish-no-active-bg.ish-color20 li.current_page_item a,
 	.ish-sc_menu.ish-block-bg-color20 li.current_page_item a:hover
 	{
-		background-color: #8582a1;
-		/*box-shadow: 0 3px 0 #6c6988;*/
+		background-color: #000000;
+		/*box-shadow: 0 3px 0 #000000;*/
 	}
 
 	.c
 	{
-		border-color: #9e9bba !important;
+		border-color: MediumPurple !important;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color20 svg polygon,
@@ -5145,7 +5145,7 @@
 	.ish-row_section.ish-color20 .ish-row-decor-top rect.ish-color,
 	.ish-row_section.ish-color20 .ish-row-decor-bottom rect.ish-color
 	{
-		fill: #9e9bba;
+		fill: MediumPurple;
 	}
 
 	.ish-sc_icon.ish-hexagon.ish-color20 a:hover svg polygon,
@@ -5153,12 +5153,12 @@
 	.ish-sc_svg_icon.ish-hexagon.ish-color20 a:hover svg polygon,
 	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color20 a:hover svg path
 	{
-		fill: #8582a1;
+		fill: #000000;
 	}
 
 	.ish-p-overlay.ish-color20 .ish-p-box
 	{
-		/*background-color: rgba(158, 155, 186, 0.3);*/
+		/*background-color: rgba(14, 13, 0, 0.3);*/
 	}
 
 	.ish-p-overlay.ish-color20 .ish-p-box,
@@ -5167,7 +5167,7 @@
 	.ish-sc_recent_posts.ish-rp-fullwidth .wpb_row.ish-text-color20 .ish-post-icon i,
 	.ish-tagline-image.ish-color20 .ish-overlay
 	{
-		background-color: #9e9bba;
+		background-color: MediumPurple;
 	}
 
 	.ish-gmap_box.ish-color20:before,
@@ -5180,14 +5180,14 @@
 	.ish-tgg-acc-title.ish-border-color20,
 	.ish-tgg-acc-content.ish-border-color20
 	{
-		border-color: #9e9bba;
+		border-color: MediumPurple;
 	}
 
 	.ish-tagline-colored.ish-text-color20 .ish-pt-container:before,
 	.ish-tagline-colored.ish-text-color20 .ish-pt-container:before,
 	.ish-sc-element.ish-sc_quote.ish-color20, .ish-sc-element.ish-sc_quote.ish-color20:before
 	{
-		border-color: rgba(158, 155, 186, 0.4) !important;
+		border-color: rgba(14, 13, 0, 0.4) !important;
 	}
 
 	.ish-tagline-image.ish-text-color20 .ish-blog-post-details,
@@ -5195,7 +5195,7 @@
 	.ish-tagline-colored.ish-text-color20 .ish-pt-container > :last-child,
 	.ish-tagline-colored.ish-text-color20 .ish-part_breadcrumbs
 	{
-		border-color: rgba(158, 155, 186, 0.25) !important;
+		border-color: rgba(14, 13, 0, 0.25) !important;
 
 	}
 
@@ -5204,12 +5204,12 @@
 	.ish-sc_menu.ish-style-border.ish-text-color20 li a,
 	.ish-tabs-navigation li.ish-border-color20 a
 	{
-		border-color: rgba(158, 155, 186, 0.25);
+		border-color: rgba(14, 13, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color20:after
 	{
-		background-color: rgba(158, 155, 186, 0.25);
+		background-color: rgba(14, 13, 0, 0.25);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color20:hover,
@@ -5223,30 +5223,30 @@
 	.ish-tabs-navigation li.ish-active.ish-border-color20 a,
 	.ish-sc_tab.ish-border-color20
 	{
-		border-color: rgba(158, 155, 186, 0.5);
+		border-color: rgba(14, 13, 0, 0.5);
 	}
 
 	.ish-sc_button.ish-border.ish-text-color20:hover:after
 	{
-		background-color: rgba(158, 155, 186, 0.5);
+		background-color: rgba(14, 13, 0, 0.5);
 	}
 
 	.ish-sc_cf7.ish-border.ish-bg-text-color20 input,
 	.ish-sc_cf7.ish-border.ish-bg-text-color20 textarea,
 	.ish-sc_cf7.ish-border.ish-bg-text-color20 select
 	{
-		border-color: #d0cdec;
+		border-color: #403f32;
 	}
 
 	.ish-tooltip-color20 .tooltipster-arrow-top span,
 	.ish-tooltip-color20 .tooltipster-arrow-bottom span{
-		border-top-color: #9e9bba !important;
-		border-bottom-color: #9e9bba !important;
+		border-top-color: MediumPurple !important;
+		border-bottom-color: MediumPurple !important;
 	}
 
 	.ish-tooltip-color20 .tooltipster-arrow-left span,
 	.ish-tooltip-color20 .tooltipster-arrow-right span{
-		border-left-color: #9e9bba !important;
-		border-right-color: #9e9bba !important;
+		border-left-color: MediumPurple !important;
+		border-right-color: MediumPurple !important;
 	}
 	
